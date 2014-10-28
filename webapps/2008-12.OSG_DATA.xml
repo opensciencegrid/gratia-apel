@@ -1,0 +1,547 @@
+<?xml version="1.0"?>
+
+<resultset statement="select * from OSG_DATA where Year=2008 and Month=12 order by ExecutingSite,LCGUserVO " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="ExecutingSite">AGLT2</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">915756</field>
+	<field name="SumCPU">50529</field>
+	<field name="NormSumCPU">136329</field>
+	<field name="SumWCT">92967</field>
+	<field name="NormSumWCT">250824</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">2.698</field>
+	<field name="MeasurementDate">2009-01-15 00:15:05</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">BNL_ATLAS_1</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">2858192</field>
+	<field name="SumCPU">508531</field>
+	<field name="NormSumCPU">988585</field>
+	<field name="SumWCT">767230</field>
+	<field name="NormSumWCT">1491496</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.944</field>
+	<field name="MeasurementDate">2009-01-15 00:15:04</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">BU_ATLAS_Tier2</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">509906</field>
+	<field name="SumCPU">55800</field>
+	<field name="NormSumCPU">112828</field>
+	<field name="SumWCT">70944</field>
+	<field name="NormSumWCT">143449</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">2.022</field>
+	<field name="MeasurementDate">2009-01-15 00:15:06</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">CIT_CMS_T2</field>
+	<field name="LCGUserVO">cms</field>
+	<field name="Njobs">65446</field>
+	<field name="SumCPU">163023</field>
+	<field name="NormSumCPU">390930</field>
+	<field name="SumWCT">266298</field>
+	<field name="NormSumWCT">638583</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">2.398</field>
+	<field name="MeasurementDate">2009-01-15 00:15:06</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">CIT_CMS_T2</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">73</field>
+	<field name="SumCPU">0</field>
+	<field name="NormSumCPU">0</field>
+	<field name="SumWCT">1</field>
+	<field name="NormSumWCT">2</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-02</field>
+	<field name="RecordEnd">2008-12-27</field>
+	<field name="NormFactor">2.398</field>
+	<field name="MeasurementDate">2009-01-15 00:15:06</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">GLOW</field>
+	<field name="LCGUserVO">cms</field>
+	<field name="Njobs">79575</field>
+	<field name="SumCPU">249834</field>
+	<field name="NormSumCPU">541141</field>
+	<field name="SumWCT">553159</field>
+	<field name="NormSumWCT">1198142</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">2.166</field>
+	<field name="MeasurementDate">2009-01-15 00:15:05</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">GLOW</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">130</field>
+	<field name="SumCPU">0</field>
+	<field name="NormSumCPU">0</field>
+	<field name="SumWCT">17</field>
+	<field name="NormSumWCT">36</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-03</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">2.166</field>
+	<field name="MeasurementDate">2009-01-15 00:15:05</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">IU_OSG</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">205536</field>
+	<field name="SumCPU">34758</field>
+	<field name="NormSumCPU">73027</field>
+	<field name="SumWCT">44856</field>
+	<field name="NormSumWCT">94242</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">2.101</field>
+	<field name="MeasurementDate">2009-01-15 00:15:04</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">MIT_CMS</field>
+	<field name="LCGUserVO">cms</field>
+	<field name="Njobs">97977</field>
+	<field name="SumCPU">466943</field>
+	<field name="NormSumCPU">874118</field>
+	<field name="SumWCT">512468</field>
+	<field name="NormSumWCT">959340</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.872</field>
+	<field name="MeasurementDate">2009-01-15 00:15:04</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">MIT_CMS</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">153</field>
+	<field name="SumCPU">0</field>
+	<field name="NormSumCPU">0</field>
+	<field name="SumWCT">4</field>
+	<field name="NormSumWCT">8</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-30</field>
+	<field name="NormFactor">1.872</field>
+	<field name="MeasurementDate">2009-01-15 00:15:04</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">MWT2_IU</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">332990</field>
+	<field name="SumCPU">107082</field>
+	<field name="NormSumCPU">196603</field>
+	<field name="SumWCT">125541</field>
+	<field name="NormSumWCT">230493</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.836</field>
+	<field name="MeasurementDate">2009-01-15 00:15:05</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">MWT2_UC</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">378477</field>
+	<field name="SumCPU">184426</field>
+	<field name="NormSumCPU">356865</field>
+	<field name="SumWCT">214610</field>
+	<field name="NormSumWCT">415270</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.935</field>
+	<field name="MeasurementDate">2009-01-15 00:15:06</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">Nebraska</field>
+	<field name="LCGUserVO">cms</field>
+	<field name="Njobs">54392</field>
+	<field name="SumCPU">124014</field>
+	<field name="NormSumCPU">251377</field>
+	<field name="SumWCT">193606</field>
+	<field name="NormSumWCT">392440</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">2.027</field>
+	<field name="MeasurementDate">2009-01-15 00:15:05</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">Nebraska</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">236</field>
+	<field name="SumCPU">0</field>
+	<field name="NormSumCPU">1</field>
+	<field name="SumWCT">12</field>
+	<field name="NormSumWCT">23</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-02</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">2.027</field>
+	<field name="MeasurementDate">2009-01-15 00:15:05</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">OU_OCHEP_SWT2</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">216172</field>
+	<field name="SumCPU">24186</field>
+	<field name="NormSumCPU">57781</field>
+	<field name="SumWCT">30350</field>
+	<field name="NormSumWCT">72505</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">2.389</field>
+	<field name="MeasurementDate">2009-01-15 00:15:03</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">Purdue-RCAC</field>
+	<field name="LCGUserVO">cms</field>
+	<field name="Njobs">134213</field>
+	<field name="SumCPU">421047</field>
+	<field name="NormSumCPU">1213878</field>
+	<field name="SumWCT">500638</field>
+	<field name="NormSumWCT">1443339</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">2.883</field>
+	<field name="MeasurementDate">2009-01-15 00:15:05</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">Purdue-Steele</field>
+	<field name="LCGUserVO">cms</field>
+	<field name="Njobs">17731</field>
+	<field name="SumCPU">90518</field>
+	<field name="NormSumCPU">289297</field>
+	<field name="SumWCT">93396</field>
+	<field name="NormSumWCT">298493</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">3.196</field>
+	<field name="MeasurementDate">2009-01-15 00:15:04</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">SWT2_CPB</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">805952</field>
+	<field name="SumCPU">88001</field>
+	<field name="NormSumCPU">165178</field>
+	<field name="SumWCT">122300</field>
+	<field name="NormSumWCT">229558</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-02</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.877</field>
+	<field name="MeasurementDate">2009-01-15 00:15:03</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">UCSDT2</field>
+	<field name="LCGUserVO">cms</field>
+	<field name="Njobs">99963</field>
+	<field name="SumCPU">99267</field>
+	<field name="NormSumCPU">284997</field>
+	<field name="SumWCT">192159</field>
+	<field name="NormSumWCT">551689</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">2.871</field>
+	<field name="MeasurementDate">2009-01-15 00:15:03</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">UCSDT2</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">107</field>
+	<field name="SumCPU">0</field>
+	<field name="NormSumCPU">0</field>
+	<field name="SumWCT">8</field>
+	<field name="NormSumWCT">24</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-02</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">2.871</field>
+	<field name="MeasurementDate">2009-01-15 00:15:03</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">UC_ATLAS_MWT2</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">224970</field>
+	<field name="SumCPU">27196</field>
+	<field name="NormSumCPU">34947</field>
+	<field name="SumWCT">44397</field>
+	<field name="NormSumWCT">57050</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.285</field>
+	<field name="MeasurementDate">2009-01-15 00:15:06</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">UFlorida-HPC</field>
+	<field name="LCGUserVO">cms</field>
+	<field name="Njobs">29823</field>
+	<field name="SumCPU">119970</field>
+	<field name="NormSumCPU">182474</field>
+	<field name="SumWCT">173482</field>
+	<field name="NormSumWCT">263866</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.521</field>
+	<field name="MeasurementDate">2009-01-15 00:15:03</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">UFlorida-HPC</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">90</field>
+	<field name="SumCPU">2</field>
+	<field name="NormSumCPU">2</field>
+	<field name="SumWCT">5</field>
+	<field name="NormSumWCT">7</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-02</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.521</field>
+	<field name="MeasurementDate">2009-01-15 00:15:03</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">UFlorida-IHEPA</field>
+	<field name="LCGUserVO">cms</field>
+	<field name="Njobs">23088</field>
+	<field name="SumCPU">28818</field>
+	<field name="NormSumCPU">43832</field>
+	<field name="SumWCT">67691</field>
+	<field name="NormSumWCT">102958</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.521</field>
+	<field name="MeasurementDate">2009-01-15 00:15:05</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">UFlorida-IHEPA</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">157</field>
+	<field name="SumCPU">0</field>
+	<field name="NormSumCPU">0</field>
+	<field name="SumWCT">8</field>
+	<field name="NormSumWCT">11</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-02</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.521</field>
+	<field name="MeasurementDate">2009-01-15 00:15:05</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">UFlorida-PG</field>
+	<field name="LCGUserVO">cms</field>
+	<field name="Njobs">38503</field>
+	<field name="SumCPU">73280</field>
+	<field name="NormSumCPU">112485</field>
+	<field name="SumWCT">121706</field>
+	<field name="NormSumWCT">186818</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.535</field>
+	<field name="MeasurementDate">2009-01-15 00:15:04</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">UFlorida-PG</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">165</field>
+	<field name="SumCPU">0</field>
+	<field name="NormSumCPU">0</field>
+	<field name="SumWCT">9</field>
+	<field name="NormSumWCT">14</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-02</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.535</field>
+	<field name="MeasurementDate">2009-01-15 00:15:04</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">USCMS-FNAL-WC1-CE</field>
+	<field name="LCGUserVO">cms</field>
+	<field name="Njobs">375385</field>
+	<field name="SumCPU">3340360</field>
+	<field name="NormSumCPU">6042712</field>
+	<field name="SumWCT">3520027</field>
+	<field name="NormSumWCT">6367728</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.809</field>
+	<field name="MeasurementDate">2009-01-15 00:15:06</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">USCMS-FNAL-WC1-CE</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">1</field>
+	<field name="SumCPU">0</field>
+	<field name="NormSumCPU">0</field>
+	<field name="SumWCT">0</field>
+	<field name="NormSumWCT">0</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-31</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">1.809</field>
+	<field name="MeasurementDate">2009-01-15 00:15:06</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">UTA_SWT2</field>
+	<field name="LCGUserVO">atlas</field>
+	<field name="Njobs">0</field>
+	<field name="SumCPU">0</field>
+	<field name="NormSumCPU">0</field>
+	<field name="SumWCT">0</field>
+	<field name="NormSumWCT">0</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2009-01-15</field>
+	<field name="RecordEnd">2009-01-15</field>
+	<field name="NormFactor">1.543</field>
+	<field name="MeasurementDate">2009-01-15 00:15:03</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">UTA_SWT2</field>
+	<field name="LCGUserVO">cms</field>
+	<field name="Njobs">0</field>
+	<field name="SumCPU">0</field>
+	<field name="NormSumCPU">0</field>
+	<field name="SumWCT">0</field>
+	<field name="NormSumWCT">0</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2009-01-15</field>
+	<field name="RecordEnd">2009-01-15</field>
+	<field name="NormFactor">1.543</field>
+	<field name="MeasurementDate">2009-01-15 00:15:03</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">UTA_SWT2</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">0</field>
+	<field name="SumCPU">0</field>
+	<field name="NormSumCPU">0</field>
+	<field name="SumWCT">0</field>
+	<field name="NormSumWCT">0</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2009-01-15</field>
+	<field name="RecordEnd">2009-01-15</field>
+	<field name="NormFactor">1.543</field>
+	<field name="MeasurementDate">2009-01-15 00:15:03</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">UTA_SWT2</field>
+	<field name="LCGUserVO">uscms</field>
+	<field name="Njobs">0</field>
+	<field name="SumCPU">0</field>
+	<field name="NormSumCPU">0</field>
+	<field name="SumWCT">0</field>
+	<field name="NormSumWCT">0</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2009-01-15</field>
+	<field name="RecordEnd">2009-01-15</field>
+	<field name="NormFactor">1.543</field>
+	<field name="MeasurementDate">2009-01-15 00:15:03</field>
+  </row>
+
+  <row>
+	<field name="ExecutingSite">WT2</field>
+	<field name="LCGUserVO">usatlas</field>
+	<field name="Njobs">531999</field>
+	<field name="SumCPU">159552</field>
+	<field name="NormSumCPU">384838</field>
+	<field name="SumWCT">216750</field>
+	<field name="NormSumWCT">522801</field>
+	<field name="Month">12</field>
+	<field name="Year">2008</field>
+	<field name="RecordStart">2008-12-01</field>
+	<field name="RecordEnd">2008-12-31</field>
+	<field name="NormFactor">2.412</field>
+	<field name="MeasurementDate">2009-01-15 00:15:05</field>
+  </row>
+</resultset>

@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+
+<resultset statement="select * from org_Tier2 where  Path like &quot;1.4%&quot; or  Path like &quot;1.32%&quot; order by Path
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="Name">USA</field>
+	<field name="Path">1.32</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">US-AGLT2</field>
+	<field name="Path">1.32.1</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">AGLT2</field>
+	<field name="Path">1.32.1.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">T2_US_Florida</field>
+	<field name="Path">1.32.10</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">Uflorida-PG</field>
+	<field name="Path">1.32.10.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name"></field>
+	<field name="Path">1.32.11</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">UFlorida-HPC</field>
+	<field name="Path">1.32.11.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">T2_US_MIT</field>
+	<field name="Path">1.32.12</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">MIT_CMS</field>
+	<field name="Path">1.32.12.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">T2_US_Nebraska</field>
+	<field name="Path">1.32.13</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">Nebraska</field>
+	<field name="Path">1.32.13.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">T2_US_Purdue</field>
+	<field name="Path">1.32.14</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">Purdue-RCAC</field>
+	<field name="Path">1.32.14.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name"></field>
+	<field name="Path">1.32.15</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">Purdue-Steele</field>
+	<field name="Path">1.32.15.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">T2_US_UCSD</field>
+	<field name="Path">1.32.16</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">UCSDT2</field>
+	<field name="Path">1.32.16.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">T2_US_Wisconsin</field>
+	<field name="Path">1.32.17</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">GLOW</field>
+	<field name="Path">1.32.17.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">US-NET2</field>
+	<field name="Path">1.32.2</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">BU_ATLAS_Tier2</field>
+	<field name="Path">1.32.2.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">US-MWT2</field>
+	<field name="Path">1.32.3</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">MWT2_UC</field>
+	<field name="Path">1.32.3.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name"></field>
+	<field name="Path">1.32.4</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">MWT2_IU</field>
+	<field name="Path">1.32.4.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">US-SWT2</field>
+	<field name="Path">1.32.5</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">OU_OCHEP_SWT2</field>
+	<field name="Path">1.32.5.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name"></field>
+	<field name="Path">1.32.6</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">UTA_SWT2</field>
+	<field name="Path">1.32.6.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name"></field>
+	<field name="Path">1.32.7</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">SWT2_CPB</field>
+	<field name="Path">1.32.7.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">US-WT2</field>
+	<field name="Path">1.32.8</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">WT2</field>
+	<field name="Path">1.32.8.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">T2_US_Caltech</field>
+	<field name="Path">1.32.9</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">CIT_CMS_T2</field>
+	<field name="Path">1.32.9.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">Brazil</field>
+	<field name="Path">1.4</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">BR-SP-SPRACE</field>
+	<field name="Path">1.4.1</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">SPRACE</field>
+	<field name="Path">1.4.1.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name"></field>
+	<field name="Path">1.4.2</field>
+	<field name="RefID">0</field>
+	<field name="MapID">0</field>
+  </row>
+
+  <row>
+	<field name="Name">GridUNESP_CENTRAL</field>
+	<field name="Path">1.4.2.1</field>
+	<field name="RefID">1</field>
+	<field name="MapID">0</field>
+  </row>
+</resultset>

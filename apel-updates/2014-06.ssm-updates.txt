@@ -1,0 +1,4031 @@
+APEL-summary-job-message: v0.2
+Site: AGLT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ddmadmin/CN=531497/CN=Robot: ATLAS Data Management
+WallDuration: 136
+CpuDuration: 0
+NormalisedWallDuration: 1258
+NormalisedCpuDuration: 1
+NumberOfJobs: 2530
+%%
+Site: AGLT2
+Group: atlas
+EarliestEndTime: 1401858000
+LatestEndTime: 1402808400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=wguan/CN=667815/CN=Wen Guan
+WallDuration: 1
+CpuDuration: 0
+NormalisedWallDuration: 9
+NormalisedCpuDuration: 1
+NumberOfJobs: 13
+%%
+Site: AGLT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Bob Ball 81
+WallDuration: 2
+CpuDuration: 0
+NormalisedWallDuration: 23
+NormalisedCpuDuration: 0
+NumberOfJobs: 10248
+%%
+Site: AGLT2
+Group: atlas
+EarliestEndTime: 1403758800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Edward Diehl 2179
+WallDuration: 2426
+CpuDuration: 2122
+NormalisedWallDuration: 22460
+NormalisedCpuDuration: 19646
+NumberOfJobs: 1428
+%%
+Site: AGLT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=John Hover
+WallDuration: 2859837
+CpuDuration: 2293610
+NormalisedWallDuration: 26482092
+NormalisedCpuDuration: 21238829
+NumberOfJobs: 732199
+%%
+Site: AGLT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Saul Youssef 93
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 46
+%%
+Site: AGLT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /OU=LocalUser/CN=atlasconnect
+WallDuration: 3263
+CpuDuration: 1390
+NormalisedWallDuration: 30219
+NormalisedCpuDuration: 12869
+NumberOfJobs: 3398
+%%
+Site: BNL-ATLAS
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ddmadmin/CN=531497/CN=Robot: ATLAS Data Management
+WallDuration: 232
+CpuDuration: 0
+NormalisedWallDuration: 2331
+NormalisedCpuDuration: 3
+NumberOfJobs: 12283
+%%
+Site: BNL-ATLAS
+Group: atlas
+EarliestEndTime: 1401685200
+LatestEndTime: 1402549200
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=wguan/CN=667815/CN=Wen Guan
+WallDuration: 6
+CpuDuration: 0
+NormalisedWallDuration: 62
+NormalisedCpuDuration: 2
+NumberOfJobs: 16
+%%
+Site: BNL-ATLAS
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=John Hover
+WallDuration: 8508479
+CpuDuration: 7846536
+NormalisedWallDuration: 85510216
+NormalisedCpuDuration: 78857690
+NumberOfJobs: 1918221
+%%
+Site: BNL-ATLAS
+Group: atlas
+EarliestEndTime: 1401858000
+LatestEndTime: 1401858000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=John Hover 241/CN=proxy
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 2
+%%
+Site: BNL-ATLAS
+Group: atlas
+EarliestEndTime: 1401858000
+LatestEndTime: 1402030800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Jose Caballero 649
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 8
+%%
+Site: BNL-ATLAS
+Group: atlas
+EarliestEndTime: 1402635600
+LatestEndTime: 1402981200
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Paul Nilsson 1162
+WallDuration: 11
+CpuDuration: 0
+NormalisedWallDuration: 114
+NormalisedCpuDuration: 5
+NumberOfJobs: 10
+%%
+Site: BNL-ATLAS
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Saul Youssef 93
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 3
+NormalisedCpuDuration: 0
+NumberOfJobs: 446
+%%
+Site: BNL-ATLAS
+Group: atlas
+EarliestEndTime: 1401771600
+LatestEndTime: 1403154000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Xin Zhao 87
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 6
+%%
+Site: BNL-ATLAS
+Group: atlas
+EarliestEndTime: 1401771600
+LatestEndTime: 1401944400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Xin Zhao 87/CN=proxy
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 2
+%%
+Site: BNL-ATLAS
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1401685200
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 2
+CpuDuration: 0
+NormalisedWallDuration: 18
+NormalisedCpuDuration: 0
+NumberOfJobs: 5
+%%
+Site: BU_ATLAS_Tier2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ddmadmin/CN=531497/CN=Robot: ATLAS Data Management
+WallDuration: 231
+CpuDuration: 211
+NormalisedWallDuration: 2151
+NormalisedCpuDuration: 1964
+NumberOfJobs: 664
+%%
+Site: BU_ATLAS_Tier2
+Group: atlas
+EarliestEndTime: 1402635600
+LatestEndTime: 1402635600
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=wguan/CN=667815/CN=Wen Guan
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 2
+%%
+Site: BU_ATLAS_Tier2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=John Hover
+WallDuration: 1235044
+CpuDuration: 1161206
+NormalisedWallDuration: 11510610
+NormalisedCpuDuration: 10822437
+NumberOfJobs: 351180
+%%
+Site: BU_ATLAS_Tier2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Saul Youssef 93
+WallDuration: 426
+CpuDuration: 405
+NormalisedWallDuration: 3969
+NormalisedCpuDuration: 3771
+NumberOfJobs: 2764
+%%
+Site: BU_ATLAS_Tier2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1403672400
+Month: 06
+Year: 2014
+GlobalUserName: iVDGL
+WallDuration: 724120
+CpuDuration: 663923
+NormalisedWallDuration: 6748797
+NormalisedCpuDuration: 6187760
+NumberOfJobs: 154136
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401858000
+LatestEndTime: 1402117200
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=DESY/CN=Pooja Saxena
+WallDuration: 2252
+CpuDuration: 1990
+NormalisedWallDuration: 29144
+NormalisedCpuDuration: 25753
+NumberOfJobs: 438
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1403586000
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=KIT/CN=Dominik Haitz
+WallDuration: 2673
+CpuDuration: 1564
+NormalisedWallDuration: 34597
+NormalisedCpuDuration: 20249
+NumberOfJobs: 1243
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1403499600
+LatestEndTime: 1403499600
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=KIT/CN=Steffen Roecker
+WallDuration: 2
+CpuDuration: 0
+NormalisedWallDuration: 29
+NormalisedCpuDuration: 0
+NumberOfJobs: 103
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch
+WallDuration: 227114
+CpuDuration: 146510
+NormalisedWallDuration: 2939764
+NormalisedCpuDuration: 1896421
+NumberOfJobs: 34229
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot01/vocms0167.cern.ch
+WallDuration: 52385
+CpuDuration: 40758
+NormalisedWallDuration: 678073
+NormalisedCpuDuration: 527573
+NumberOfJobs: 6438
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch
+WallDuration: 52108
+CpuDuration: 39926
+NormalisedWallDuration: 674488
+NormalisedCpuDuration: 516803
+NumberOfJobs: 6395
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch
+WallDuration: 29454
+CpuDuration: 22210
+NormalisedWallDuration: 381249
+NormalisedCpuDuration: 287483
+NumberOfJobs: 4463
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch
+WallDuration: 50777
+CpuDuration: 38194
+NormalisedWallDuration: 657252
+NormalisedCpuDuration: 494388
+NumberOfJobs: 6956
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch
+WallDuration: 72571
+CpuDuration: 54815
+NormalisedWallDuration: 939359
+NormalisedCpuDuration: 709527
+NumberOfJobs: 8002
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch
+WallDuration: 30521
+CpuDuration: 23442
+NormalisedWallDuration: 395061
+NormalisedCpuDuration: 303428
+NumberOfJobs: 4274
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch
+WallDuration: 30098
+CpuDuration: 22621
+NormalisedWallDuration: 389585
+NormalisedCpuDuration: 292807
+NumberOfJobs: 4515
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch
+WallDuration: 30054
+CpuDuration: 22385
+NormalisedWallDuration: 389016
+NormalisedCpuDuration: 289755
+NumberOfJobs: 4502
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch
+WallDuration: 30626
+CpuDuration: 23264
+NormalisedWallDuration: 396421
+NormalisedCpuDuration: 301135
+NumberOfJobs: 4498
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401944400
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 9433
+CpuDuration: 8132
+NormalisedWallDuration: 122107
+NormalisedCpuDuration: 105259
+NumberOfJobs: 2095
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch
+WallDuration: 729825
+CpuDuration: 607405
+NormalisedWallDuration: 9446857
+NormalisedCpuDuration: 7862246
+NumberOfJobs: 76297
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 1486
+CpuDuration: 23
+NormalisedWallDuration: 19240
+NormalisedCpuDuration: 297
+NumberOfJobs: 5028
+%%
+Site: CIT_CMS_T2
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1403758800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 3
+CpuDuration: 0
+NormalisedWallDuration: 36
+NormalisedCpuDuration: 0
+NumberOfJobs: 8
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1403586000
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=KIT/CN=Dominik Haitz
+WallDuration: 20771
+CpuDuration: 10451
+NormalisedWallDuration: 200067
+NormalisedCpuDuration: 100662
+NumberOfJobs: 2957
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1403758800
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=KIT/CN=Raphael Friese
+WallDuration: 2324
+CpuDuration: 1223
+NormalisedWallDuration: 22388
+NormalisedCpuDuration: 11780
+NumberOfJobs: 319
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch
+WallDuration: 509060
+CpuDuration: 346768
+NormalisedWallDuration: 4903262
+NormalisedCpuDuration: 3340069
+NumberOfJobs: 75977
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot01/vocms0167.cern.ch
+WallDuration: 102870
+CpuDuration: 79569
+NormalisedWallDuration: 990844
+NormalisedCpuDuration: 766405
+NumberOfJobs: 9807
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch
+WallDuration: 106759
+CpuDuration: 84149
+NormalisedWallDuration: 1028300
+NormalisedCpuDuration: 810528
+NumberOfJobs: 11250
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch
+WallDuration: 77717
+CpuDuration: 61098
+NormalisedWallDuration: 748573
+NormalisedCpuDuration: 588494
+NumberOfJobs: 7783
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch
+WallDuration: 111928
+CpuDuration: 88519
+NormalisedWallDuration: 1078089
+NormalisedCpuDuration: 852618
+NumberOfJobs: 12127
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch
+WallDuration: 77204
+CpuDuration: 60688
+NormalisedWallDuration: 743633
+NormalisedCpuDuration: 584550
+NumberOfJobs: 7710
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch
+WallDuration: 76551
+CpuDuration: 60647
+NormalisedWallDuration: 737336
+NormalisedCpuDuration: 584152
+NumberOfJobs: 7783
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch
+WallDuration: 77220
+CpuDuration: 61021
+NormalisedWallDuration: 743783
+NormalisedCpuDuration: 587754
+NumberOfJobs: 7811
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch
+WallDuration: 77377
+CpuDuration: 61150
+NormalisedWallDuration: 745294
+NormalisedCpuDuration: 588998
+NumberOfJobs: 7726
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch
+WallDuration: 77351
+CpuDuration: 61028
+NormalisedWallDuration: 745043
+NormalisedCpuDuration: 587824
+NumberOfJobs: 7871
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 59968
+CpuDuration: 52053
+NormalisedWallDuration: 577616
+NormalisedCpuDuration: 501378
+NumberOfJobs: 7801
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch
+WallDuration: 1127591
+CpuDuration: 1015455
+NormalisedWallDuration: 10860953
+NormalisedCpuDuration: 9780865
+NumberOfJobs: 249474
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1402030800
+LatestEndTime: 1402030800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=deroy/CN=731049/CN=Debarati Roy
+WallDuration: 233
+CpuDuration: 119
+NormalisedWallDuration: 2244
+NormalisedCpuDuration: 1148
+NumberOfJobs: 135
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 212
+CpuDuration: 14
+NormalisedWallDuration: 2038
+NormalisedCpuDuration: 133
+NumberOfJobs: 6001
+%%
+Site: GLOW
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1403758800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 9
+CpuDuration: 0
+NormalisedWallDuration: 89
+NormalisedCpuDuration: 0
+NumberOfJobs: 9
+%%
+Site: GridUNESP_CENTRAL
+Group: alice
+EarliestEndTime: 1401580800
+LatestEndTime: 1401580800
+Month: 06
+Year: 2014
+GlobalUserName: None
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 0
+%%
+Site: GridUNESP_CENTRAL
+Group: usatlas
+EarliestEndTime: 1401580800
+LatestEndTime: 1401580800
+Month: 06
+Year: 2014
+GlobalUserName: None
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 0
+%%
+Site: GridUNESP_CENTRAL
+Group: atlas
+EarliestEndTime: 1401580800
+LatestEndTime: 1401580800
+Month: 06
+Year: 2014
+GlobalUserName: None
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 0
+%%
+Site: GridUNESP_CENTRAL
+Group: uscms
+EarliestEndTime: 1401580800
+LatestEndTime: 1401580800
+Month: 06
+Year: 2014
+GlobalUserName: None
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 0
+%%
+Site: GridUNESP_CENTRAL
+Group: cms
+EarliestEndTime: 1401580800
+LatestEndTime: 1401580800
+Month: 06
+Year: 2014
+GlobalUserName: None
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 0
+%%
+Site: HU_ATLAS_Tier2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ddmadmin/CN=531497/CN=Robot: ATLAS Data Management
+WallDuration: 60
+CpuDuration: 5
+NormalisedWallDuration: 568
+NormalisedCpuDuration: 50
+NumberOfJobs: 1839
+%%
+Site: HU_ATLAS_Tier2
+Group: atlas
+EarliestEndTime: 1402030800
+LatestEndTime: 1402981200
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=John Brunelle 221
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 3
+%%
+Site: HU_ATLAS_Tier2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=John Hover
+WallDuration: 1094846
+CpuDuration: 1060626
+NormalisedWallDuration: 10335350
+NormalisedCpuDuration: 10012313
+NumberOfJobs: 217570
+%%
+Site: HU_ATLAS_Tier2
+Group: atlas
+EarliestEndTime: 1402981200
+LatestEndTime: 1403499600
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Saul Youssef 93
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 17
+%%
+Site: HU_ATLAS_Tier2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: Generic atlas user
+WallDuration: 189634
+CpuDuration: 26039
+NormalisedWallDuration: 1790149
+NormalisedCpuDuration: 245809
+NumberOfJobs: 3581
+%%
+Site: LC-glcc
+Group: alice
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: Generic alice user
+WallDuration: 533985
+CpuDuration: 384422
+NormalisedWallDuration: 8372892
+NormalisedCpuDuration: 6027736
+NumberOfJobs: 300444
+%%
+Site: LUCILLE
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ddmadmin/CN=531497/CN=Robot: ATLAS Data Management
+WallDuration: 38
+CpuDuration: 0
+NormalisedWallDuration: 345
+NormalisedCpuDuration: 1
+NumberOfJobs: 1404
+%%
+Site: LUCILLE
+Group: atlas
+EarliestEndTime: 1402635600
+LatestEndTime: 1402894800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=wguan/CN=667815/CN=Wen Guan
+WallDuration: 1
+CpuDuration: 0
+NormalisedWallDuration: 13
+NormalisedCpuDuration: 3
+NumberOfJobs: 8
+%%
+Site: LUCILLE
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=John Hover
+WallDuration: 438011
+CpuDuration: 407721
+NormalisedWallDuration: 3985897
+NormalisedCpuDuration: 3710263
+NumberOfJobs: 92101
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch
+WallDuration: 334146
+CpuDuration: 285906
+NormalisedWallDuration: 3608779
+NormalisedCpuDuration: 3087786
+NumberOfJobs: 36841
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot01/vocms0167.cern.ch
+WallDuration: 56759
+CpuDuration: 46160
+NormalisedWallDuration: 612995
+NormalisedCpuDuration: 498528
+NumberOfJobs: 6362
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch
+WallDuration: 55970
+CpuDuration: 45418
+NormalisedWallDuration: 604481
+NormalisedCpuDuration: 490511
+NumberOfJobs: 6667
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch
+WallDuration: 55975
+CpuDuration: 45761
+NormalisedWallDuration: 604527
+NormalisedCpuDuration: 494222
+NumberOfJobs: 6653
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch
+WallDuration: 55707
+CpuDuration: 45283
+NormalisedWallDuration: 601632
+NormalisedCpuDuration: 489061
+NumberOfJobs: 6688
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch
+WallDuration: 55671
+CpuDuration: 45096
+NormalisedWallDuration: 601246
+NormalisedCpuDuration: 487041
+NumberOfJobs: 6683
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch
+WallDuration: 55460
+CpuDuration: 44964
+NormalisedWallDuration: 598964
+NormalisedCpuDuration: 485606
+NumberOfJobs: 6669
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch
+WallDuration: 55182
+CpuDuration: 44684
+NormalisedWallDuration: 595970
+NormalisedCpuDuration: 482589
+NumberOfJobs: 6609
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch
+WallDuration: 55527
+CpuDuration: 44850
+NormalisedWallDuration: 599689
+NormalisedCpuDuration: 484375
+NumberOfJobs: 6662
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch
+WallDuration: 56009
+CpuDuration: 45568
+NormalisedWallDuration: 604900
+NormalisedCpuDuration: 492130
+NumberOfJobs: 6817
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401944400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 19390
+CpuDuration: 16308
+NormalisedWallDuration: 209417
+NormalisedCpuDuration: 176130
+NumberOfJobs: 2686
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch
+WallDuration: 1075448
+CpuDuration: 928810
+NormalisedWallDuration: 11614835
+NormalisedCpuDuration: 10031145
+NumberOfJobs: 231282
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 178
+CpuDuration: 13
+NormalisedWallDuration: 1923
+NormalisedCpuDuration: 143
+NumberOfJobs: 6958
+%%
+Site: MIT_CMS
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1403758800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 3
+CpuDuration: 0
+NormalisedWallDuration: 31
+NormalisedCpuDuration: 0
+NumberOfJobs: 8
+%%
+Site: MWT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ddmadmin/CN=531497/CN=Robot: ATLAS Data Management
+WallDuration: 31
+CpuDuration: 0
+NormalisedWallDuration: 284
+NormalisedCpuDuration: 1
+NumberOfJobs: 2146
+%%
+Site: MWT2
+Group: atlas
+EarliestEndTime: 1401858000
+LatestEndTime: 1402894800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=wguan/CN=667815/CN=Wen Guan
+WallDuration: 2
+CpuDuration: 0
+NormalisedWallDuration: 20
+NormalisedCpuDuration: 4
+NumberOfJobs: 11
+%%
+Site: MWT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=John Hover
+WallDuration: 4561019
+CpuDuration: 4054557
+NormalisedWallDuration: 42235038
+NormalisedCpuDuration: 37545200
+NumberOfJobs: 1565525
+%%
+Site: MWT2
+Group: atlas
+EarliestEndTime: 1402981200
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Saul Youssef 93
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 1
+NormalisedCpuDuration: 0
+NumberOfJobs: 70
+%%
+Site: MWT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1402722000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=pilot/osg-flock.grid.iu.edu
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 4
+NormalisedCpuDuration: 0
+NumberOfJobs: 29
+%%
+Site: MWT2
+Group: atlas
+EarliestEndTime: 1401685200
+LatestEndTime: 1403499600
+Month: 06
+Year: 2014
+GlobalUserName: /OU=LocalUser/CN=ruc.indiana
+WallDuration: 34395
+CpuDuration: 577
+NormalisedWallDuration: 318495
+NormalisedCpuDuration: 5347
+NumberOfJobs: 11198
+%%
+Site: MWT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /OU=LocalUser/CN=ruc.mwt2
+WallDuration: 7692
+CpuDuration: 4501
+NormalisedWallDuration: 71226
+NormalisedCpuDuration: 41682
+NumberOfJobs: 6718
+%%
+Site: MWT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /OU=LocalUser/CN=ruc.uchicago
+WallDuration: 49601
+CpuDuration: 14172
+NormalisedWallDuration: 459304
+NormalisedCpuDuration: 131230
+NumberOfJobs: 29156
+%%
+Site: MWT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /OU=LocalUser/CN=ruc.uiuc
+WallDuration: 35896
+CpuDuration: 0
+NormalisedWallDuration: 332400
+NormalisedCpuDuration: 2
+NumberOfJobs: 96303
+%%
+Site: MWT2
+Group: atlas
+EarliestEndTime: 1401685200
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /OU=LocalUser/CN=ruc.utexas
+WallDuration: 66999
+CpuDuration: 38953
+NormalisedWallDuration: 620408
+NormalisedCpuDuration: 360708
+NumberOfJobs: 68552
+%%
+Site: MWT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1403499600
+Month: 06
+Year: 2014
+GlobalUserName: /OU=LocalUser/CN=usatlas3
+WallDuration: 95112
+CpuDuration: 66080
+NormalisedWallDuration: 880736
+NormalisedCpuDuration: 611897
+NumberOfJobs: 6439
+%%
+Site: NERSC-PDSF
+Group: alice
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: Alice Nonprod
+WallDuration: 847837
+CpuDuration: 671089
+NormalisedWallDuration: 14085968
+NormalisedCpuDuration: 11149472
+NumberOfJobs: 273482
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401858000
+LatestEndTime: 1401944400
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=KIT/CN=Marian Zvada
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 5
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1403586000
+LatestEndTime: 1403586000
+Month: 06
+Year: 2014
+GlobalUserName: /C=UK/O=eScience/OU=CLRC/L=RAL/CN=andrew lahiff
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 1
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch
+WallDuration: 457717
+CpuDuration: 421942
+NormalisedWallDuration: 4765754
+NormalisedCpuDuration: 4393262
+NumberOfJobs: 45264
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot01/vocms0167.cern.ch
+WallDuration: 71620
+CpuDuration: 63152
+NormalisedWallDuration: 745706
+NormalisedCpuDuration: 657541
+NumberOfJobs: 10468
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch
+WallDuration: 53012
+CpuDuration: 46601
+NormalisedWallDuration: 551956
+NormalisedCpuDuration: 485207
+NumberOfJobs: 7088
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch
+WallDuration: 52895
+CpuDuration: 46056
+NormalisedWallDuration: 550738
+NormalisedCpuDuration: 479540
+NumberOfJobs: 6917
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch
+WallDuration: 72571
+CpuDuration: 63650
+NormalisedWallDuration: 755605
+NormalisedCpuDuration: 662723
+NumberOfJobs: 10069
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch
+WallDuration: 101053
+CpuDuration: 87307
+NormalisedWallDuration: 1052162
+NormalisedCpuDuration: 909043
+NumberOfJobs: 17473
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch
+WallDuration: 52710
+CpuDuration: 46234
+NormalisedWallDuration: 548813
+NormalisedCpuDuration: 481385
+NumberOfJobs: 7051
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch
+WallDuration: 53205
+CpuDuration: 45988
+NormalisedWallDuration: 553970
+NormalisedCpuDuration: 478824
+NumberOfJobs: 8205
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch
+WallDuration: 53588
+CpuDuration: 47273
+NormalisedWallDuration: 557961
+NormalisedCpuDuration: 492208
+NumberOfJobs: 7208
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch
+WallDuration: 53035
+CpuDuration: 45995
+NormalisedWallDuration: 552197
+NormalisedCpuDuration: 478898
+NumberOfJobs: 7801
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401944400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 32440
+CpuDuration: 29742
+NormalisedWallDuration: 337769
+NormalisedCpuDuration: 309669
+NumberOfJobs: 2272
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch
+WallDuration: 1021185
+CpuDuration: 840900
+NormalisedWallDuration: 10632581
+NormalisedCpuDuration: 8755451
+NumberOfJobs: 130224
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 210
+CpuDuration: 70
+NormalisedWallDuration: 2191
+NormalisedCpuDuration: 726
+NumberOfJobs: 9111
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1403758800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 5
+CpuDuration: 0
+NormalisedWallDuration: 51
+NormalisedCpuDuration: 1
+NumberOfJobs: 13
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1402722000
+LatestEndTime: 1403240400
+Month: 06
+Year: 2014
+GlobalUserName: Generic /cms/Role=pilot/Capability=NULL user
+WallDuration: 12027
+CpuDuration: 10936
+NormalisedWallDuration: 125230
+NormalisedCpuDuration: 113863
+NumberOfJobs: 654
+%%
+Site: Nebraska
+Group: cms
+EarliestEndTime: 1402722000
+LatestEndTime: 1403154000
+Month: 06
+Year: 2014
+GlobalUserName: Generic /cms/Role=production/Capability=NULL user
+WallDuration: 2209
+CpuDuration: 1413
+NormalisedWallDuration: 23002
+NormalisedCpuDuration: 14707
+NumberOfJobs: 258
+%%
+Site: OU_OCHEP_SWT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1402722000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ddmadmin/CN=531497/CN=Robot: ATLAS Data Management
+WallDuration: 17
+CpuDuration: 0
+NormalisedWallDuration: 154
+NormalisedCpuDuration: 0
+NumberOfJobs: 582
+%%
+Site: OU_OCHEP_SWT2
+Group: atlas
+EarliestEndTime: 1402635600
+LatestEndTime: 1402894800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=wguan/CN=667815/CN=Wen Guan
+WallDuration: 1
+CpuDuration: 0
+NormalisedWallDuration: 12
+NormalisedCpuDuration: 3
+NumberOfJobs: 7
+%%
+Site: OU_OCHEP_SWT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=John Hover
+WallDuration: 533220
+CpuDuration: 479694
+NormalisedWallDuration: 4702996
+NormalisedCpuDuration: 4230898
+NumberOfJobs: 135483
+%%
+Site: OU_OCHEP_SWT2
+Group: atlas
+EarliestEndTime: 1402981200
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Saul Youssef 93
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 1
+NormalisedCpuDuration: 0
+NumberOfJobs: 17
+%%
+Site: OU_OSCER_ATLAS
+Group: atlas
+EarliestEndTime: 1403758800
+LatestEndTime: 1403758800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Horst Severini 27
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 4
+%%
+Site: OU_OSCER_ATLAS
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=John Hover
+WallDuration: 118261
+CpuDuration: 100026
+NormalisedWallDuration: 1681672
+NormalisedCpuDuration: 1422368
+NumberOfJobs: 33461
+%%
+Site: OU_OSCER_ATLAS
+Group: atlas
+EarliestEndTime: 1402981200
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Saul Youssef 93
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 2
+NormalisedCpuDuration: 0
+NumberOfJobs: 34
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch
+WallDuration: 103517
+CpuDuration: 85993
+NormalisedWallDuration: 1697677
+NormalisedCpuDuration: 1410293
+NumberOfJobs: 19544
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot01/vocms0167.cern.ch
+WallDuration: 10299
+CpuDuration: 6783
+NormalisedWallDuration: 168906
+NormalisedCpuDuration: 111246
+NumberOfJobs: 2390
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch
+WallDuration: 10188
+CpuDuration: 6622
+NormalisedWallDuration: 167087
+NormalisedCpuDuration: 108594
+NumberOfJobs: 2687
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch
+WallDuration: 9851
+CpuDuration: 6575
+NormalisedWallDuration: 161557
+NormalisedCpuDuration: 107826
+NumberOfJobs: 2664
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch
+WallDuration: 10083
+CpuDuration: 6660
+NormalisedWallDuration: 165358
+NormalisedCpuDuration: 109232
+NumberOfJobs: 2723
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch
+WallDuration: 10085
+CpuDuration: 6771
+NormalisedWallDuration: 165396
+NormalisedCpuDuration: 111037
+NumberOfJobs: 2721
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch
+WallDuration: 10028
+CpuDuration: 6584
+NormalisedWallDuration: 164459
+NormalisedCpuDuration: 107981
+NumberOfJobs: 2625
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch
+WallDuration: 9941
+CpuDuration: 6526
+NormalisedWallDuration: 163026
+NormalisedCpuDuration: 107030
+NumberOfJobs: 2642
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch
+WallDuration: 10128
+CpuDuration: 6589
+NormalisedWallDuration: 166096
+NormalisedCpuDuration: 108067
+NumberOfJobs: 2706
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch
+WallDuration: 10275
+CpuDuration: 6814
+NormalisedWallDuration: 168508
+NormalisedCpuDuration: 111749
+NumberOfJobs: 2759
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401944400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 3749
+CpuDuration: 2921
+NormalisedWallDuration: 61485
+NormalisedCpuDuration: 47906
+NumberOfJobs: 967
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch
+WallDuration: 501364
+CpuDuration: 400149
+NormalisedWallDuration: 8222377
+NormalisedCpuDuration: 6562448
+NumberOfJobs: 80270
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1403154000
+LatestEndTime: 1403154000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=marabgol/CN=653155/CN=Majid Arabgol
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 7
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 210
+CpuDuration: 10
+NormalisedWallDuration: 3436
+NormalisedCpuDuration: 167
+NumberOfJobs: 2924
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1403758800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 3
+CpuDuration: 0
+NormalisedWallDuration: 45
+NormalisedCpuDuration: 1
+NumberOfJobs: 8
+%%
+Site: Purdue-Carter
+Group: cms
+EarliestEndTime: 1402981200
+LatestEndTime: 1403499600
+Month: 06
+Year: 2014
+GlobalUserName: Generic uscms user
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 1
+NormalisedCpuDuration: 0
+NumberOfJobs: 20
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch
+WallDuration: 65218
+CpuDuration: 55933
+NormalisedWallDuration: 668485
+NormalisedCpuDuration: 573316
+NumberOfJobs: 12408
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot01/vocms0167.cern.ch
+WallDuration: 4125
+CpuDuration: 2792
+NormalisedWallDuration: 42278
+NormalisedCpuDuration: 28621
+NumberOfJobs: 1189
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch
+WallDuration: 4203
+CpuDuration: 2776
+NormalisedWallDuration: 43080
+NormalisedCpuDuration: 28450
+NumberOfJobs: 1480
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch
+WallDuration: 4044
+CpuDuration: 2684
+NormalisedWallDuration: 41456
+NormalisedCpuDuration: 27515
+NumberOfJobs: 1363
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch
+WallDuration: 4386
+CpuDuration: 2914
+NormalisedWallDuration: 44951
+NormalisedCpuDuration: 29867
+NumberOfJobs: 1528
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch
+WallDuration: 4378
+CpuDuration: 2926
+NormalisedWallDuration: 44875
+NormalisedCpuDuration: 29987
+NumberOfJobs: 1461
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch
+WallDuration: 3913
+CpuDuration: 2635
+NormalisedWallDuration: 40104
+NormalisedCpuDuration: 27006
+NumberOfJobs: 1389
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch
+WallDuration: 4205
+CpuDuration: 2802
+NormalisedWallDuration: 43103
+NormalisedCpuDuration: 28721
+NumberOfJobs: 1458
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch
+WallDuration: 4129
+CpuDuration: 2796
+NormalisedWallDuration: 42326
+NormalisedCpuDuration: 28658
+NumberOfJobs: 1420
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch
+WallDuration: 4236
+CpuDuration: 2849
+NormalisedWallDuration: 43415
+NormalisedCpuDuration: 29206
+NumberOfJobs: 1476
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401944400
+LatestEndTime: 1403845200
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 1108
+CpuDuration: 812
+NormalisedWallDuration: 11362
+NormalisedCpuDuration: 8322
+NumberOfJobs: 465
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch
+WallDuration: 232884
+CpuDuration: 186237
+NormalisedWallDuration: 2387060
+NormalisedCpuDuration: 1908932
+NumberOfJobs: 38356
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1402462800
+LatestEndTime: 1402808400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=marabgol/CN=653155/CN=Majid Arabgol
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 3
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 122
+CpuDuration: 8
+NormalisedWallDuration: 1254
+NormalisedCpuDuration: 79
+NumberOfJobs: 1950
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1401685200
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 1
+CpuDuration: 0
+NormalisedWallDuration: 10
+NormalisedCpuDuration: 0
+NumberOfJobs: 3
+%%
+Site: Purdue-Conte
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1402981200
+Month: 06
+Year: 2014
+GlobalUserName: Generic uscms user
+WallDuration: 131242
+CpuDuration: 105606
+NormalisedWallDuration: 1345226
+NormalisedCpuDuration: 1082464
+NumberOfJobs: 31005
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch
+WallDuration: 109340
+CpuDuration: 55220
+NormalisedWallDuration: 1352536
+NormalisedCpuDuration: 683077
+NumberOfJobs: 20370
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot01/vocms0167.cern.ch
+WallDuration: 15049
+CpuDuration: 11175
+NormalisedWallDuration: 186155
+NormalisedCpuDuration: 138234
+NumberOfJobs: 1885
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch
+WallDuration: 15123
+CpuDuration: 11658
+NormalisedWallDuration: 187073
+NormalisedCpuDuration: 144213
+NumberOfJobs: 2223
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch
+WallDuration: 15416
+CpuDuration: 11349
+NormalisedWallDuration: 190701
+NormalisedCpuDuration: 140384
+NumberOfJobs: 2290
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401771600
+LatestEndTime: 1401858000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 22
+CpuDuration: 19
+NormalisedWallDuration: 276
+NormalisedCpuDuration: 236
+NumberOfJobs: 3
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch
+WallDuration: 14648
+CpuDuration: 10998
+NormalisedWallDuration: 181199
+NormalisedCpuDuration: 136047
+NumberOfJobs: 2171
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401771600
+LatestEndTime: 1401944400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 29
+CpuDuration: 25
+NormalisedWallDuration: 362
+NormalisedCpuDuration: 309
+NumberOfJobs: 2
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch
+WallDuration: 14349
+CpuDuration: 10568
+NormalisedWallDuration: 177501
+NormalisedCpuDuration: 130731
+NumberOfJobs: 2214
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401771600
+LatestEndTime: 1401771600
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 9
+CpuDuration: 8
+NormalisedWallDuration: 110
+NormalisedCpuDuration: 104
+NumberOfJobs: 1
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch
+WallDuration: 15481
+CpuDuration: 11410
+NormalisedWallDuration: 191495
+NormalisedCpuDuration: 141138
+NumberOfJobs: 2267
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401771600
+LatestEndTime: 1401771600
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 6
+CpuDuration: 6
+NormalisedWallDuration: 77
+NormalisedCpuDuration: 69
+NumberOfJobs: 1
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch
+WallDuration: 15275
+CpuDuration: 11437
+NormalisedWallDuration: 188948
+NormalisedCpuDuration: 141470
+NumberOfJobs: 2210
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch
+WallDuration: 15174
+CpuDuration: 11494
+NormalisedWallDuration: 187707
+NormalisedCpuDuration: 142180
+NumberOfJobs: 2236
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401771600
+LatestEndTime: 1401858000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 16
+CpuDuration: 14
+NormalisedWallDuration: 203
+NormalisedCpuDuration: 175
+NumberOfJobs: 2
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch
+WallDuration: 14697
+CpuDuration: 10915
+NormalisedWallDuration: 181806
+NormalisedCpuDuration: 135020
+NumberOfJobs: 2142
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401858000
+LatestEndTime: 1401858000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 8
+CpuDuration: 8
+NormalisedWallDuration: 105
+NormalisedCpuDuration: 100
+NumberOfJobs: 1
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401944400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 5377
+CpuDuration: 4301
+NormalisedWallDuration: 66514
+NormalisedCpuDuration: 53201
+NumberOfJobs: 862
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch
+WallDuration: 513245
+CpuDuration: 310781
+NormalisedWallDuration: 6348845
+NormalisedCpuDuration: 3844361
+NumberOfJobs: 74405
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401858000
+LatestEndTime: 1401858000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 14
+CpuDuration: 14
+NormalisedWallDuration: 172
+NormalisedCpuDuration: 169
+NumberOfJobs: 1
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1403499600
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=egough/CN=734735/CN=Erik Gough
+WallDuration: 382
+CpuDuration: 1
+NormalisedWallDuration: 4730
+NormalisedCpuDuration: 11
+NumberOfJobs: 1216
+%%
+Site: Purdue-Hadoop
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 172
+CpuDuration: 7
+NormalisedWallDuration: 2133
+NormalisedCpuDuration: 87
+NumberOfJobs: 3095
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch
+WallDuration: 54711
+CpuDuration: 48156
+NormalisedWallDuration: 474893
+NormalisedCpuDuration: 417996
+NumberOfJobs: 11717
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot01/vocms0167.cern.ch
+WallDuration: 5155
+CpuDuration: 3732
+NormalisedWallDuration: 44743
+NormalisedCpuDuration: 32397
+NumberOfJobs: 1426
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch
+WallDuration: 4974
+CpuDuration: 3714
+NormalisedWallDuration: 43173
+NormalisedCpuDuration: 32242
+NumberOfJobs: 1604
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch
+WallDuration: 4900
+CpuDuration: 3701
+NormalisedWallDuration: 42536
+NormalisedCpuDuration: 32121
+NumberOfJobs: 1675
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch
+WallDuration: 4949
+CpuDuration: 3618
+NormalisedWallDuration: 42957
+NormalisedCpuDuration: 31403
+NumberOfJobs: 1645
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch
+WallDuration: 4799
+CpuDuration: 3577
+NormalisedWallDuration: 41654
+NormalisedCpuDuration: 31049
+NumberOfJobs: 1617
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch
+WallDuration: 4832
+CpuDuration: 3476
+NormalisedWallDuration: 41938
+NormalisedCpuDuration: 30175
+NumberOfJobs: 1670
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch
+WallDuration: 4872
+CpuDuration: 3583
+NormalisedWallDuration: 42291
+NormalisedCpuDuration: 31097
+NumberOfJobs: 1649
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch
+WallDuration: 5132
+CpuDuration: 3809
+NormalisedWallDuration: 44546
+NormalisedCpuDuration: 33059
+NumberOfJobs: 1622
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch
+WallDuration: 5212
+CpuDuration: 3840
+NormalisedWallDuration: 45241
+NormalisedCpuDuration: 33334
+NumberOfJobs: 1718
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401944400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 1087
+CpuDuration: 712
+NormalisedWallDuration: 9436
+NormalisedCpuDuration: 6177
+NumberOfJobs: 423
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch
+WallDuration: 270879
+CpuDuration: 220400
+NormalisedWallDuration: 2351233
+NormalisedCpuDuration: 1913074
+NumberOfJobs: 57053
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 125
+CpuDuration: 17
+NormalisedWallDuration: 1086
+NormalisedCpuDuration: 145
+NumberOfJobs: 2374
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1401685200
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 1
+CpuDuration: 0
+NormalisedWallDuration: 9
+NormalisedCpuDuration: 0
+NumberOfJobs: 3
+%%
+Site: Purdue-Hansen
+Group: cms
+EarliestEndTime: 1403240400
+LatestEndTime: 1403240400
+Month: 06
+Year: 2014
+GlobalUserName: Generic uscms user
+WallDuration: 25
+CpuDuration: 24
+NormalisedWallDuration: 221
+NormalisedCpuDuration: 207
+NumberOfJobs: 3
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch
+WallDuration: 612371
+CpuDuration: 522597
+NormalisedWallDuration: 6883053
+NormalisedCpuDuration: 5873990
+NumberOfJobs: 4757
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot01/vocms0167.cern.ch
+WallDuration: 70191
+CpuDuration: 63359
+NormalisedWallDuration: 788942
+NormalisedCpuDuration: 712152
+NumberOfJobs: 896
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch
+WallDuration: 53126
+CpuDuration: 47613
+NormalisedWallDuration: 597135
+NormalisedCpuDuration: 535172
+NumberOfJobs: 1316
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch
+WallDuration: 58142
+CpuDuration: 48659
+NormalisedWallDuration: 653517
+NormalisedCpuDuration: 546926
+NumberOfJobs: 1284
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch
+WallDuration: 58059
+CpuDuration: 49988
+NormalisedWallDuration: 652582
+NormalisedCpuDuration: 561864
+NumberOfJobs: 1377
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch
+WallDuration: 54372
+CpuDuration: 53969
+NormalisedWallDuration: 611143
+NormalisedCpuDuration: 606610
+NumberOfJobs: 1386
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch
+WallDuration: 57547
+CpuDuration: 55122
+NormalisedWallDuration: 646828
+NormalisedCpuDuration: 619568
+NumberOfJobs: 1370
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch
+WallDuration: 57626
+CpuDuration: 51072
+NormalisedWallDuration: 647716
+NormalisedCpuDuration: 574050
+NumberOfJobs: 1302
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch
+WallDuration: 56888
+CpuDuration: 52342
+NormalisedWallDuration: 639419
+NormalisedCpuDuration: 588322
+NumberOfJobs: 1328
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch
+WallDuration: 51558
+CpuDuration: 46752
+NormalisedWallDuration: 579511
+NormalisedCpuDuration: 525493
+NumberOfJobs: 1292
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401944400
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 16084
+CpuDuration: 12124
+NormalisedWallDuration: 180784
+NormalisedCpuDuration: 136276
+NumberOfJobs: 285
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1401598800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=jha/CN=618566/CN=Manoj Jha
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 1
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1402462800
+LatestEndTime: 1402808400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=marabgol/CN=653155/CN=Majid Arabgol
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 3
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 115
+CpuDuration: 17
+NormalisedWallDuration: 1295
+NormalisedCpuDuration: 196
+NumberOfJobs: 2227
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1401685200
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 1
+CpuDuration: 0
+NormalisedWallDuration: 12
+NormalisedCpuDuration: 0
+NumberOfJobs: 3
+%%
+Site: Purdue-Rossmann
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: Generic uscms user
+WallDuration: 63917
+CpuDuration: 362658
+NormalisedWallDuration: 718432
+NormalisedCpuDuration: 4076279
+NumberOfJobs: 5488
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1402117200
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /C=BR/O=ANSP/OU=ANSPGrid CA/OU=People/CN=Angelo de Souza Santos
+WallDuration: 189
+CpuDuration: 233
+NormalisedWallDuration: 2551
+NormalisedCpuDuration: 3144
+NumberOfJobs: 179
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1402722000
+LatestEndTime: 1402894800
+Month: 06
+Year: 2014
+GlobalUserName: /C=BR/O=ANSP/OU=ANSPGrid CA/OU=People/CN=Cesar Augusto Bernardes
+WallDuration: 23
+CpuDuration: 12
+NormalisedWallDuration: 304
+NormalisedCpuDuration: 167
+NumberOfJobs: 114
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1402030800
+LatestEndTime: 1402981200
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=DESY/CN=Pooja Saxena
+WallDuration: 1881
+CpuDuration: 1679
+NormalisedWallDuration: 25360
+NormalisedCpuDuration: 22631
+NumberOfJobs: 694
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1402722000
+LatestEndTime: 1402722000
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=KIT/CN=Raphael Friese
+WallDuration: 2118
+CpuDuration: 0
+NormalisedWallDuration: 28548
+NormalisedCpuDuration: 3
+NumberOfJobs: 501
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch
+WallDuration: 111544
+CpuDuration: 95403
+NormalisedWallDuration: 1503618
+NormalisedCpuDuration: 1286027
+NumberOfJobs: 9033
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot01/vocms0167.cern.ch
+WallDuration: 18262
+CpuDuration: 16388
+NormalisedWallDuration: 246173
+NormalisedCpuDuration: 220912
+NumberOfJobs: 1404
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch
+WallDuration: 17931
+CpuDuration: 16049
+NormalisedWallDuration: 241704
+NormalisedCpuDuration: 216341
+NumberOfJobs: 1556
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch
+WallDuration: 17592
+CpuDuration: 15637
+NormalisedWallDuration: 237135
+NormalisedCpuDuration: 210784
+NumberOfJobs: 1322
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch
+WallDuration: 17566
+CpuDuration: 15669
+NormalisedWallDuration: 236795
+NormalisedCpuDuration: 211218
+NumberOfJobs: 1437
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch
+WallDuration: 18079
+CpuDuration: 16325
+NormalisedWallDuration: 243711
+NormalisedCpuDuration: 220059
+NumberOfJobs: 1329
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch
+WallDuration: 17796
+CpuDuration: 15919
+NormalisedWallDuration: 239890
+NormalisedCpuDuration: 214592
+NumberOfJobs: 1405
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch
+WallDuration: 17906
+CpuDuration: 16157
+NormalisedWallDuration: 241370
+NormalisedCpuDuration: 217796
+NumberOfJobs: 1366
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch
+WallDuration: 17945
+CpuDuration: 16038
+NormalisedWallDuration: 241895
+NormalisedCpuDuration: 216199
+NumberOfJobs: 1376
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch
+WallDuration: 17712
+CpuDuration: 15744
+NormalisedWallDuration: 238763
+NormalisedCpuDuration: 212235
+NumberOfJobs: 1336
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401944400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 841
+CpuDuration: 770
+NormalisedWallDuration: 11331
+NormalisedCpuDuration: 10378
+NumberOfJobs: 120
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch
+WallDuration: 156638
+CpuDuration: 107147
+NormalisedWallDuration: 2111477
+NormalisedCpuDuration: 1444347
+NumberOfJobs: 64539
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 104
+CpuDuration: 12
+NormalisedWallDuration: 1402
+NormalisedCpuDuration: 167
+NumberOfJobs: 3189
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1402981200
+LatestEndTime: 1403240400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Bockjoo Kim 118811
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 17
+%%
+Site: SPRACE
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1403931600
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 2
+CpuDuration: 0
+NormalisedWallDuration: 21
+NormalisedCpuDuration: 0
+NumberOfJobs: 5
+%%
+Site: SWT2_CPB
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ddmadmin/CN=531497/CN=Robot: ATLAS Data Management
+WallDuration: 28
+CpuDuration: 1
+NormalisedWallDuration: 237
+NormalisedCpuDuration: 12
+NumberOfJobs: 1211
+%%
+Site: SWT2_CPB
+Group: atlas
+EarliestEndTime: 1402635600
+LatestEndTime: 1402894800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=wguan/CN=667815/CN=Wen Guan
+WallDuration: 1
+CpuDuration: 0
+NormalisedWallDuration: 11
+NormalisedCpuDuration: 4
+NumberOfJobs: 6
+%%
+Site: SWT2_CPB
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=John Hover
+WallDuration: 1659210
+CpuDuration: 1584003
+NormalisedWallDuration: 14202838
+NormalisedCpuDuration: 13559065
+NumberOfJobs: 330655
+%%
+Site: SWT2_CPB
+Group: atlas
+EarliestEndTime: 1403067600
+LatestEndTime: 1403067600
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Patrick McGuigan 55
+WallDuration: 1
+CpuDuration: 0
+NormalisedWallDuration: 9
+NormalisedCpuDuration: 0
+NumberOfJobs: 1
+%%
+Site: SWT2_CPB
+Group: atlas
+EarliestEndTime: 1402981200
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Saul Youssef 93
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 18
+%%
+Site: SWT2_CPB
+Group: atlas
+EarliestEndTime: 1403067600
+LatestEndTime: 1403067600
+Month: 06
+Year: 2014
+GlobalUserName: /DC=org/DC=terena/DC=tcs/C=NL/O=Nikhef/CN=Pierfrancesco Butti pbutti@nikhef.nl
+WallDuration: 1
+CpuDuration: 0
+NormalisedWallDuration: 9
+NormalisedCpuDuration: 0
+NumberOfJobs: 1
+%%
+Site: SWT2_CPB
+Group: atlas
+EarliestEndTime: 1401944400
+LatestEndTime: 1403154000
+Month: 06
+Year: 2014
+GlobalUserName: Generic atlas user
+WallDuration: 87
+CpuDuration: 79
+NormalisedWallDuration: 742
+NormalisedCpuDuration: 680
+NumberOfJobs: 50
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch
+WallDuration: 230147
+CpuDuration: 168937
+NormalisedWallDuration: 3047150
+NormalisedCpuDuration: 2236727
+NumberOfJobs: 19688
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1404104400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 2010
+CpuDuration: 1732
+NormalisedWallDuration: 26617
+NormalisedCpuDuration: 22937
+NumberOfJobs: 57
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot01/vocms0167.cern.ch
+WallDuration: 37656
+CpuDuration: 26484
+NormalisedWallDuration: 498566
+NormalisedCpuDuration: 350649
+NumberOfJobs: 4608
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch
+WallDuration: 36186
+CpuDuration: 23835
+NormalisedWallDuration: 479097
+NormalisedCpuDuration: 315574
+NumberOfJobs: 4821
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1404104400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 509
+CpuDuration: 51
+NormalisedWallDuration: 6734
+NormalisedCpuDuration: 671
+NumberOfJobs: 37
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch
+WallDuration: 31105
+CpuDuration: 21992
+NormalisedWallDuration: 411826
+NormalisedCpuDuration: 291171
+NumberOfJobs: 4142
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1404104400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 22
+CpuDuration: 3
+NormalisedWallDuration: 298
+NormalisedCpuDuration: 44
+NumberOfJobs: 2
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch
+WallDuration: 31580
+CpuDuration: 21587
+NormalisedWallDuration: 418114
+NormalisedCpuDuration: 285810
+NumberOfJobs: 3934
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1404104400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 750
+CpuDuration: 189
+NormalisedWallDuration: 9926
+NormalisedCpuDuration: 2503
+NumberOfJobs: 45
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch
+WallDuration: 49842
+CpuDuration: 36631
+NormalisedWallDuration: 659912
+NormalisedCpuDuration: 484996
+NumberOfJobs: 5568
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1404104400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 956
+CpuDuration: 96
+NormalisedWallDuration: 12655
+NormalisedCpuDuration: 1271
+NumberOfJobs: 65
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch
+WallDuration: 31345
+CpuDuration: 22083
+NormalisedWallDuration: 415011
+NormalisedCpuDuration: 292374
+NumberOfJobs: 3998
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch
+WallDuration: 31051
+CpuDuration: 22003
+NormalisedWallDuration: 411112
+NormalisedCpuDuration: 291322
+NumberOfJobs: 3937
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1404104400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 394
+CpuDuration: 76
+NormalisedWallDuration: 5213
+NormalisedCpuDuration: 1000
+NumberOfJobs: 26
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch
+WallDuration: 31392
+CpuDuration: 22622
+NormalisedWallDuration: 415628
+NormalisedCpuDuration: 299514
+NumberOfJobs: 4016
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch
+WallDuration: 31217
+CpuDuration: 22562
+NormalisedWallDuration: 413307
+NormalisedCpuDuration: 298721
+NumberOfJobs: 4080
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1404104400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 428
+CpuDuration: 19
+NormalisedWallDuration: 5663
+NormalisedCpuDuration: 257
+NumberOfJobs: 33
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 15806
+CpuDuration: 12472
+NormalisedWallDuration: 209268
+NormalisedCpuDuration: 165135
+NumberOfJobs: 3320
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1404104400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 520
+CpuDuration: 39
+NormalisedWallDuration: 6889
+NormalisedCpuDuration: 517
+NumberOfJobs: 42
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch
+WallDuration: 608575
+CpuDuration: 528824
+NormalisedWallDuration: 8057531
+NormalisedCpuDuration: 7001636
+NumberOfJobs: 110186
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1404104400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch/CN=proxy/CN=limited proxy
+WallDuration: 63
+CpuDuration: 39
+NormalisedWallDuration: 829
+NormalisedCpuDuration: 522
+NumberOfJobs: 2
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1402462800
+LatestEndTime: 1402462800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=kelley/CN=669873/CN=Ryan Ward Kelley
+WallDuration: 6204
+CpuDuration: 195
+NormalisedWallDuration: 82140
+NormalisedCpuDuration: 2577
+NumberOfJobs: 6
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1403758800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=rcoelhol/CN=754088/CN=Rafael Coelho Lopes De Sa
+WallDuration: 23
+CpuDuration: 21
+NormalisedWallDuration: 302
+NormalisedCpuDuration: 274
+NumberOfJobs: 54
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401858000
+LatestEndTime: 1403845200
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=rebassoo/CN=673313/CN=Finn O'Neill Rebassoo
+WallDuration: 1365
+CpuDuration: 1129
+NormalisedWallDuration: 18078
+NormalisedCpuDuration: 14947
+NumberOfJobs: 3134
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 164
+CpuDuration: 14
+NormalisedWallDuration: 2171
+NormalisedCpuDuration: 186
+NumberOfJobs: 5269
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401858000
+LatestEndTime: 1402030800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=igortestpilot01/uaf-9.t2.ucsd.edu
+WallDuration: 9
+CpuDuration: 0
+NormalisedWallDuration: 125
+NormalisedCpuDuration: 1
+NumberOfJobs: 65
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1402290000
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=pilot01/cabinet-10-10-1.t2.ucsd.edu
+WallDuration: 69843
+CpuDuration: 105
+NormalisedWallDuration: 924719
+NormalisedCpuDuration: 1386
+NumberOfJobs: 25418
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1404104400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=pilot01/cabinet-10-10-1.t2.ucsd.edu/CN=proxy/CN=limited proxy
+WallDuration: 373
+CpuDuration: 2
+NormalisedWallDuration: 4942
+NormalisedCpuDuration: 26
+NumberOfJobs: 567
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401858000
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=t2pilot01/uaf-2.t2.ucsd.edu
+WallDuration: 30263
+CpuDuration: 54080
+NormalisedWallDuration: 400687
+NormalisedCpuDuration: 716024
+NumberOfJobs: 6359
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1404104400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=t2pilot01/uaf-2.t2.ucsd.edu/CN=proxy/CN=limited proxy
+WallDuration: 112
+CpuDuration: 44
+NormalisedWallDuration: 1485
+NormalisedCpuDuration: 580
+NumberOfJobs: 10
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401858000
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=t3pilot01/uaf-2.t2.ucsd.edu
+WallDuration: 18209
+CpuDuration: 35961
+NormalisedWallDuration: 241084
+NormalisedCpuDuration: 476124
+NumberOfJobs: 3219
+%%
+Site: UCSDT2
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1403758800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 2
+CpuDuration: 0
+NormalisedWallDuration: 24
+NormalisedCpuDuration: 0
+NumberOfJobs: 5
+%%
+Site: UERJ
+Group: cms
+EarliestEndTime: 1402376400
+LatestEndTime: 1402722000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 43
+CpuDuration: 0
+NormalisedWallDuration: 449
+NormalisedCpuDuration: 0
+NumberOfJobs: 153
+%%
+Site: UERJ
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1402894800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 144
+CpuDuration: 4
+NormalisedWallDuration: 1512
+NormalisedCpuDuration: 42
+NumberOfJobs: 1488
+%%
+Site: UERJ
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1402290000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 464
+CpuDuration: 0
+NormalisedWallDuration: 4862
+NormalisedCpuDuration: 0
+NumberOfJobs: 1359
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401944400
+LatestEndTime: 1402981200
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=DESY/CN=Pooja Saxena
+WallDuration: 1663
+CpuDuration: 1588
+NormalisedWallDuration: 18189
+NormalisedCpuDuration: 17374
+NumberOfJobs: 165
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1402376400
+LatestEndTime: 1402981200
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=KIT/CN=Dominik Haitz
+WallDuration: 156
+CpuDuration: 148
+NormalisedWallDuration: 1703
+NormalisedCpuDuration: 1615
+NumberOfJobs: 122
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch
+WallDuration: 614094
+CpuDuration: 402770
+NormalisedWallDuration: 6718191
+NormalisedCpuDuration: 4406305
+NumberOfJobs: 36198
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1403499600
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot01/vocms0167.cern.ch
+WallDuration: 537
+CpuDuration: 507
+NormalisedWallDuration: 5873
+NormalisedCpuDuration: 5550
+NumberOfJobs: 53
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch
+WallDuration: 77806
+CpuDuration: 63710
+NormalisedWallDuration: 851201
+NormalisedCpuDuration: 696983
+NumberOfJobs: 4972
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch
+WallDuration: 77546
+CpuDuration: 62938
+NormalisedWallDuration: 848351
+NormalisedCpuDuration: 688546
+NumberOfJobs: 5030
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch
+WallDuration: 79455
+CpuDuration: 65556
+NormalisedWallDuration: 869233
+NormalisedCpuDuration: 717178
+NumberOfJobs: 5295
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch
+WallDuration: 70407
+CpuDuration: 57409
+NormalisedWallDuration: 770250
+NormalisedCpuDuration: 628050
+NumberOfJobs: 4689
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch
+WallDuration: 82565
+CpuDuration: 67937
+NormalisedWallDuration: 903261
+NormalisedCpuDuration: 743225
+NumberOfJobs: 5379
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch
+WallDuration: 73465
+CpuDuration: 60712
+NormalisedWallDuration: 803709
+NormalisedCpuDuration: 664193
+NumberOfJobs: 5000
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch
+WallDuration: 78371
+CpuDuration: 63908
+NormalisedWallDuration: 857380
+NormalisedCpuDuration: 699151
+NumberOfJobs: 5154
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch
+WallDuration: 78528
+CpuDuration: 64459
+NormalisedWallDuration: 859091
+NormalisedCpuDuration: 705187
+NumberOfJobs: 5280
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 33426
+CpuDuration: 31257
+NormalisedWallDuration: 365679
+NormalisedCpuDuration: 341948
+NumberOfJobs: 2376
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch
+WallDuration: 912890
+CpuDuration: 882566
+NormalisedWallDuration: 9987015
+NormalisedCpuDuration: 9655275
+NumberOfJobs: 91205
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 106
+CpuDuration: 20
+NormalisedWallDuration: 1164
+NormalisedCpuDuration: 217
+NumberOfJobs: 3015
+%%
+Site: UFlorida-HPC
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1403758800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 1
+CpuDuration: 0
+NormalisedWallDuration: 11
+NormalisedCpuDuration: 0
+NumberOfJobs: 3
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401858000
+LatestEndTime: 1402981200
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=DESY/CN=Pooja Saxena
+WallDuration: 15137
+CpuDuration: 12682
+NormalisedWallDuration: 155368
+NormalisedCpuDuration: 130166
+NumberOfJobs: 3180
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1402376400
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=KIT/CN=Dominik Haitz
+WallDuration: 475
+CpuDuration: 405
+NormalisedWallDuration: 4878
+NormalisedCpuDuration: 4161
+NumberOfJobs: 557
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1401858000
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=KIT/CN=Frank Roscher
+WallDuration: 80
+CpuDuration: 58
+NormalisedWallDuration: 816
+NormalisedCpuDuration: 596
+NumberOfJobs: 10
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1403758800
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=KIT/CN=Raphael Friese
+WallDuration: 577
+CpuDuration: 518
+NormalisedWallDuration: 5926
+NormalisedCpuDuration: 5318
+NumberOfJobs: 285
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1402030800
+LatestEndTime: 1403499600
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=KIT/CN=Steffen Roecker
+WallDuration: 30
+CpuDuration: 28
+NormalisedWallDuration: 312
+NormalisedCpuDuration: 286
+NumberOfJobs: 60
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1402635600
+LatestEndTime: 1403067600
+Month: 06
+Year: 2014
+GlobalUserName: /C=DE/O=GermanGrid/OU=uni-hamburg/CN=Teresa Lenz
+WallDuration: 89
+CpuDuration: 50
+NormalisedWallDuration: 915
+NormalisedCpuDuration: 512
+NumberOfJobs: 175
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot00/vocms0167.cern.ch
+WallDuration: 240980
+CpuDuration: 202776
+NormalisedWallDuration: 2473417
+NormalisedCpuDuration: 2081289
+NumberOfJobs: 12975
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot01/vocms0167.cern.ch
+WallDuration: 112073
+CpuDuration: 95353
+NormalisedWallDuration: 1150312
+NormalisedCpuDuration: 978708
+NumberOfJobs: 6523
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot02/vocms0167.cern.ch
+WallDuration: 91732
+CpuDuration: 81743
+NormalisedWallDuration: 941534
+NormalisedCpuDuration: 839011
+NumberOfJobs: 6225
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot03/vocms0167.cern.ch
+WallDuration: 101567
+CpuDuration: 88709
+NormalisedWallDuration: 1042481
+NormalisedCpuDuration: 910511
+NumberOfJobs: 7171
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot04/vocms0167.cern.ch
+WallDuration: 89786
+CpuDuration: 79245
+NormalisedWallDuration: 921562
+NormalisedCpuDuration: 813371
+NumberOfJobs: 6521
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot05/vocms0167.cern.ch
+WallDuration: 91426
+CpuDuration: 78698
+NormalisedWallDuration: 938400
+NormalisedCpuDuration: 807754
+NumberOfJobs: 6711
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot06/vocms0167.cern.ch
+WallDuration: 93262
+CpuDuration: 82836
+NormalisedWallDuration: 957238
+NormalisedCpuDuration: 850229
+NumberOfJobs: 6750
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot07/vocms0167.cern.ch
+WallDuration: 103038
+CpuDuration: 90499
+NormalisedWallDuration: 1057585
+NormalisedCpuDuration: 928885
+NumberOfJobs: 6491
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404018000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot08/vocms0167.cern.ch
+WallDuration: 93104
+CpuDuration: 80722
+NormalisedWallDuration: 955624
+NormalisedCpuDuration: 828534
+NumberOfJobs: 6940
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1403931600
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot09/vocms0167.cern.ch
+WallDuration: 95634
+CpuDuration: 83322
+NormalisedWallDuration: 981585
+NormalisedCpuDuration: 855214
+NumberOfJobs: 6880
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilot10/vocms0167.cern.ch
+WallDuration: 45138
+CpuDuration: 12335
+NormalisedWallDuration: 463294
+NormalisedCpuDuration: 126604
+NumberOfJobs: 6172
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=computers/CN=cmspilotjob/vocms157.cern.ch
+WallDuration: 5983895
+CpuDuration: 5010465
+NormalisedWallDuration: 61418696
+NormalisedCpuDuration: 51427410
+NumberOfJobs: 502951
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401771600
+LatestEndTime: 1402462800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=deroy/CN=731049/CN=Debarati Roy
+WallDuration: 520
+CpuDuration: 447
+NormalisedWallDuration: 5338
+NormalisedCpuDuration: 4587
+NumberOfJobs: 560
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401858000
+LatestEndTime: 1401858000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=klarson1/CN=704070/CN=Krista Larson
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 1
+NormalisedCpuDuration: 0
+NumberOfJobs: 2
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=sciaba/CN=430796/CN=Andrea Sciaba
+WallDuration: 388
+CpuDuration: 36
+NormalisedWallDuration: 3982
+NormalisedCpuDuration: 371
+NumberOfJobs: 11924
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1401685200
+LatestEndTime: 1403845200
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=Services/CN=testpilot03/test-frontend-1.t2.ucsd.edu
+WallDuration: 3
+CpuDuration: 0
+NormalisedWallDuration: 32
+NormalisedCpuDuration: 0
+NumberOfJobs: 9
+%%
+Site: UTA_SWT2
+Group: atlas
+EarliestEndTime: 1402635600
+LatestEndTime: 1402894800
+Month: 06
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=wguan/CN=667815/CN=Wen Guan
+WallDuration: 2
+CpuDuration: 0
+NormalisedWallDuration: 16
+NormalisedCpuDuration: 4
+NumberOfJobs: 5
+%%
+Site: UTA_SWT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=John Hover
+WallDuration: 730375
+CpuDuration: 718194
+NormalisedWallDuration: 7062722
+NormalisedCpuDuration: 6944939
+NumberOfJobs: 99414
+%%
+Site: UTA_SWT2
+Group: atlas
+EarliestEndTime: 1401685200
+LatestEndTime: 1403499600
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Paul Nilsson 1162
+WallDuration: 25
+CpuDuration: 15
+NormalisedWallDuration: 243
+NormalisedCpuDuration: 149
+NumberOfJobs: 51
+%%
+Site: UTA_SWT2
+Group: atlas
+EarliestEndTime: 1402981200
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Saul Youssef 93
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 18
+%%
+Site: UTA_SWT2
+Group: atlas
+EarliestEndTime: 1401771600
+LatestEndTime: 1402894800
+Month: 06
+Year: 2014
+GlobalUserName: Generic atlas user
+WallDuration: 206
+CpuDuration: 200
+NormalisedWallDuration: 1991
+NormalisedCpuDuration: 1939
+NumberOfJobs: 37
+%%
+Site: WT2
+Group: atlas
+EarliestEndTime: 1401598800
+LatestEndTime: 1404104400
+Month: 06
+Year: 2014
+GlobalUserName: Generic atlas user
+WallDuration: 1805404
+CpuDuration: 1628692
+NormalisedWallDuration: 19967769
+NormalisedCpuDuration: 18013328
+NumberOfJobs: 276279
+%%

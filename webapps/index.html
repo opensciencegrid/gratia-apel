@@ -1,0 +1,1241 @@
+<HTML>
+<TITLE>GRATIA-APEL WLCG Interface</TITLE>
+<HEAD><CENTER><H3>GRATIA-APEL WLCG Interface</H3></CENTER></HEAD>
+Last updated: Sun Oct 26 11:15:35 CDT 2014 
+<BODY BGCOLOR=#CCCCCC>
+<hr width=60%> 
+<p>
+The intent of this page is to provide visibility into the Gratia data that has
+been uploaded to the APEL accounting database and from there forwarded to the 
+WLCG/EGI portal.
+A full description of the Gratia-APEL interface and the tables is the
+<a href="https://twiki.grid.iu.edu/bin/view/Accounting/GratiaInterfacesApelLcg">Gratia Interfaces - APEL/WLCG document</a>.
+<p>
+Prior to 2011-11,
+the table below contains SQL 'select' dumps of the APEL accounting database
+tables in html and xml format that can be referenced for troubleshooting 
+purposes:
+<UL>
+<TABLE>
+<TR>
+<TD valign="top"><b>OSG_DATA</b></TD>
+<TD>
+    This is the table updated by Gratia which is then 
+    transferred to the WCLG/EGI portal from which WLCG reports are generated. 
+</TD>
+</TR><TR>
+<TD valign="top"><b>HS06_OSG_DATA</b></TD>
+<TD>
+    The OSG_DATA table data plus the HepSpec2006 normalized values used 
+    since January 2010).<br> 
+    Note: The HepSpec2006 factor being used by WLCG is currently 4 times
+          the SI2K value.
+</TD>
+</TR><TR>
+<TD valign="top"><b>org_Tier1</b></TD>
+<TD>
+    Table of Tier 1 resources showing the reporting groups 
+    they are a part of and the heirarchy of how they are displayed on the
+    EGI portal.
+</TD>
+</TR><TR>
+<TD valign="top"><b>org_Tier2</b></TD>
+<TD>
+    Table of Tier 2 resources showing the reporting groups 
+    they are a part of and the heirarchy of how they are displayed on the
+    EGI portal.
+</TD> </TR> </TABLE>
+</UL>
+Beginning in 2011-11,
+access to the APEL accounting tables was replaced with an Active/MQ interface
+using an SSM protocal.
+<UL>
+<B>Summary</B> - 
+    Shows the summary data (by Resource Group / VO) of the data that was
+    sent to APEL/EGI.
+</UL>
+
+In addition, there are 2 other views of data shown to assist in trouble
+shooting and validating WCLG MOU monthly reports:
+<UL>
+<TABLE>
+<TR>
+<TD valign="top"><b>late_updates</b></TD>
+<TD>
+    Show the updates that have occurred after the 
+    accounting period (month) is over.  This allows us to confirm if
+    sites have caught up when problems have occurred, to some extent.
+</TD>
+</TR><TR>
+<TD valign="top"><b>missing_data</b></TD>
+<TD>
+    Shows resource (and days) where no accounting data was
+    found. Also show if planned maintenance was recorded in OIM to account 
+    for it.
+</TD>
+</TR></TABLE>
+</UL>
+
+
+<p>
+<p>
+<hr width=60%> 
+<p>
+Additional information related to WLCG Tier 1/Tier 2 CMS, ATLAS and ALICE Gratia 
+data can be seen at the 
+<a href="http://gratiaweb.grid.iu.edu/gratia/wlcg_reporting">OSG WLCG Reporting site</a>.  These pages will
+show:
+<ol>
+<li> WLCG Accounting Summaries</li>
+<li> Site Availability Measurements</li>
+<li> GIP subcluster data including SpecInt values used</li>
+<li> Site normalization factors used</li>
+</ol>
+<p>
+<hr width=60%> 
+The Worldwide LHC Computing Grid Accounting reports for Tier-1 and Tier-2 sites
+can be seen viewed at the 
+<a href="https://espace.cern.ch/WLCG-document-repository/Accounting">
+WLCG Accounting site
+</a>
+<p>
+<hr width=60%> 
+<b>Gratia-APEL Interface Data</b> 
+<UL> 
+<TABLE BORDER=1>
+<TR BGCOLOR=black>
+<TD ><CENTER><font color=white><b>Month</b></font></CENTER></TD>
+<TD colspan=2><CENTER><font color=white><b>Summary</b></font></CENTER></TD>
+<TD colspan=2><CENTER><font color=white><b>OSG_DATA</b></font></CENTER></TD>
+<TD colspan=2><CENTER><font color=white><b>HS06_OSG_DATA</b></font></CENTER></TD>
+<TD colspan=2><CENTER><font color=white><b>org_Tier1</b></font></CENTER></TD>
+<TD colspan=2><CENTER><font color=white><b>org_Tier2</b></font></CENTER></TD>
+<TD colspan=1><CENTER><font color=white><b>late updates</b></font></CENTER></TD>
+<TD colspan=1><CENTER><font color=white><b>missing days</b></font></CENTER></TD>
+</TR>
+<TR BGCOLOR=beige>
+<TD ><CENTER><font color=black><b>2014-10</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-10.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2014-10.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-10.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2014-09</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-09.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2014-09.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-09.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2014-08</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-08.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2014-08.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-08.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2014-07</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-07.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2014-07.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-07.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2014-06</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-06.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2014-06.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-06.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2014-05</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-05.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2014-05.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-05.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2014-04</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-04.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2014-04.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-04.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2014-03</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-03.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2014-03.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-03.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2014-02</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-02.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2014-02.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-02.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2014-01</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-01.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2014-01.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2014-01.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2013-12</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-12.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2013-12.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-12.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2013-11</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-11.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2013-11.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-11.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2013-10</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-10.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2013-10.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-10.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2013-09</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-09.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2013-09.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-09.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2013-08</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-08.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2013-08.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-08.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2013-07</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-07.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2013-07.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-07.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2013-06</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-06.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2013-06.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-06.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2013-05</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-05.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2013-05.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-05.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2013-04</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-04.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2013-04.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-04.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2013-03</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-03.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2013-03.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-03.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2013-02</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-02.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2013-02.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-02.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2013-01</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-01.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2013-01.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2013-01.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2012-12</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-12.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-12.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-12.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2012-11</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-11.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-11.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-11.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2012-10</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-10.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-10.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-10.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2012-09</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-09.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-09.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-09.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2012-08</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-08.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-08.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-08.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2012-07</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-07.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-07.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-07.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2012-06</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-06.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-06.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-06.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2012-05</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-05.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-05.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-05.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-05.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-05.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-05.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-05.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-05.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-05.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-05.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-05.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2012-04</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-04.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-04.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-04.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-04.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-04.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-04.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-04.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-04.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-04.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-04.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-04.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-04.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2012-03</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-03.summary.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-03.summary.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-03.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-03.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-03.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-03.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-03.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-03.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-03.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-03.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-03.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-03.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2012-02</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-02.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-02.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-02.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-02.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-02.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-02.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-02.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-02.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-02.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-02.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2012-01</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2012-01.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-01.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-01.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-01.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-01.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-01.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-01.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-01.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-01.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2012-01.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2011-12</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2011-12.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-12.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-12.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-12.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-12.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-12.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-12.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-12.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-12.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-12.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2011-11</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2011-11.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-11.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-11.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-11.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-11.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-11.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-11.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-11.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-11.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-11.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2011-10</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2011-10.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-10.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-10.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-10.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-10.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-10.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-10.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-10.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-10.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-10.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2011-09</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2011-09.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-09.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-09.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-09.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-09.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-09.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-09.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-09.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-09.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-09.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2011-08</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2011-08.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-08.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-08.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-08.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-08.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-08.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-08.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-08.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-08.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-08.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2011-07</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2011-07.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-07.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-07.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-07.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-07.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-07.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-07.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-07.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-07.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-07.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2011-06</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2011-06.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-06.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-06.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-06.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-06.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-06.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-06.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-06.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-06.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-06.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2011-05</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2011-05.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-05.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-05.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-05.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-05.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-05.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-05.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-05.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-05.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-05.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2011-04</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2011-04.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-04.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-04.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-04.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-04.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-04.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-04.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-04.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-04.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-04.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2011-03</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2011-03.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-03.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-03.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-03.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-03.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-03.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-03.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-03.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-03.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-03.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2011-02</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2011-02.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-02.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-02.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-02.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-02.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-02.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-02.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-02.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-02.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-02.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2011-01</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2011-01.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-01.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-01.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-01.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-01.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-01.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-01.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-01.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-01.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2011-01.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2010-12</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2010-12.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-12.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-12.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-12.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-12.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-12.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-12.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-12.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-12.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-12.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2010-11</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2010-11.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-11.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-11.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-11.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-11.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-11.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-11.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-11.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-11.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-11.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2010-10</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2010-10.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-10.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-10.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-10.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-10.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-10.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-10.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-10.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-10.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-10.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2010-09</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2010-09.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-09.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-09.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-09.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-09.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-09.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-09.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-09.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-09.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-09.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2010-08</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2010-08.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-08.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-08.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-08.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-08.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-08.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-08.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-08.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-08.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-08.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2010-07</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2010-07.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-07.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-07.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-07.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-07.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-07.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-07.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-07.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-07.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-07.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2010-06</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2010-06.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-06.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-06.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-06.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-06.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-06.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-06.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-06.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-06.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-06.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2010-05</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2010-05.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-05.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-05.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-05.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-05.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-05.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-05.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-05.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-05.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-05.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2010-04</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2010-04.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-04.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-04.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-04.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-04.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-04.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-04.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-04.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-04.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-04.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2010-03</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2010-03.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-03.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-03.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-03.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-03.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-03.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-03.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-03.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-03.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-03.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2010-02</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2010-02.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-02.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-02.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-02.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-02.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-02.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-02.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-02.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-02.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-02.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2010-01</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2010-01.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-01.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-01.HS06_OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-01.HS06_OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-01.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-01.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-01.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-01.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-01.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2010-01.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2009-12</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-12.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-12.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-12.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-12.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-12.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-12.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-12.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-12.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2009-11</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-11.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-11.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-11.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-11.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-11.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-11.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-11.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-11.missingdays.html"><font color=black><b>html</b></font></a></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2009-10</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-10.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-10.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-10.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-10.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-10.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-10.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-10.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2009-09</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-09.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-09.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-09.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-09.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-09.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-09.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-09.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2009-08</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-08.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-08.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-08.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-08.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-08.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-08.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-08.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2009-07</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-07.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-07.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-07.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-07.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-07.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-07.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-07.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2009-06</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-06.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-06.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-06.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-06.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-06.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-06.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-06.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2009-05</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-05.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-05.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-05.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-05.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-05.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-05.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-05.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2009-04</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-04.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-04.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-04.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-04.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-04.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-04.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-04.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2009-03</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-03.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-03.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-03.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-03.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-03.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-03.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-03.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2009-02</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-02.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-02.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-02.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-02.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-02.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-02.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-02.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2009-01</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-01.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-01.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2009-01.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-01.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-01.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-01.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2009-01.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2008-12</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-12.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2008-12.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-12.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2008-12.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2008-12.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2008-12.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2008-12.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2008-11</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-11.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2008-11.OSG_DATA.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-11.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2008-11.org_Tier1.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2008-11.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2008-11.org_Tier2.dat"><font color=black><b>dat</b></font></a></CENTER></TD>
+<TD><CENTER><a href=".//2008-11.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2008-10</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-10.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-10.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-10.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-10.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2008-09</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-09.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-09.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-09.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-09.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2008-08</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-08.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-08.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-08.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-08.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2008-07</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-07.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-07.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-07.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-07.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2008-06</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-06.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-06.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-06.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-06.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2008-05</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-05.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-05.org_Tier1.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-05.org_Tier2.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-05.late_updates.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2008-04</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-04.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+<TD ><CENTER><font color=black><b>2008-03</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD><CENTER><a href=".//2008-03.OSG_DATA.html"><font color=black><b>html</b></font></a></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+<TD ><CENTER><font color=black><b>n/a</b></font></CENTER></TD>
+</TR>
+</TABLE>
+</UL> 
+<p>
+</body>
+</html>

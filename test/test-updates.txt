@@ -1,0 +1,14 @@
+APEL-summary-job-message: v0.2
+Site: OSGTestSite
+Group: cms
+EarliestEndTime: 1401598800
+LatestEndTime: 1401858000
+Month: 06
+Year: 2014
+GlobalUserName: /DC=Gratia-APEL-test
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 1
+%%

@@ -1,0 +1,21 @@
+#-------------------------------------------------------------------------
+# Gratia/APEL interface crontab entry
+#-------------------------------------------------------------------------
+# Previous month's transfers are run for just the 1st n days of the month to
+# insure all sites have reported to Gratia.
+# The n days is dependent on when LCG accounting issues the monthly MOU reports
+#
+#-------------------------------------------------------------------------
+## 15 10 1-5 * *  root HOMEDIR=/usr/local/gratia-apel; cd $HOMEDIR/bin; ./LCG.py --config=$HOMEDIR/etc/lcg.conf --date=previous --update
+#
+#-------------------------------------------------------------------------
+# Current month's transfers - Always daily.
+#-------------------------------------------------------------------------
+## 15 11 * * *  root HOMEDIR=/usr/local/gratia-apel; cd $HOMEDIR/bin; ./LCG.py --config=$HOMEDIR/etc/lcg.conf --date=current --update && $HOMEDIR/bin/create-apel-index.sh $HOMEDIR/etc/lcg.conf
+#--------------------------
+#--- testing with no update
+#--------------------------
+15 11 * * *  root HOMEDIR=/usr/local/gratia-apel; cd $HOMEDIR/bin; ./LCG.py --config=$HOMEDIR/etc/lcg.conf --date=current && $HOMEDIR/bin/create-apel-index.sh $HOMEDIR/etc/lcg.conf
+#
+#-------------------------------------------------------------------------
+

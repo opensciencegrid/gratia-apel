@@ -1,0 +1,16 @@
+The ssm-1.2-1.zip file contains the original executables and configuration
+files for the version of the SSM interface being used.
+
+./bin/ssm
+-rwxr--r-- 1 weigand d0 13293 Jun 13  2012 encrypt_utils.py
+-rwxr--r-- 1 weigand d0  4381 Aug  7  2012 get_brokers.py
+-rwxr--r-- 1 weigand d0  8154 Feb 16  2012 message_db.py
+-rwxr--r-- 1 weigand d0 37371 Aug  7  2012 ssm.py
+-rwxr--r-- 1 weigand d0  9366 Jun 28  2012 ssm_master.py
+
+./etc
+-rw-r--r-- 1 weigand d0  3786 Oct  7 08:43 ssm.cfg
+-rw-r--r-- 1 weigand d0   617 Oct  7 08:45 ssm.log.cfg
+-rw-r--r-- 1 weigand d0   270 Oct  7 08:46 ssm.logrotate
+
+

@@ -1,0 +1,99 @@
+##################################################################
+# This file identifies the set of sets reportable to the APEL-LCG
+# database and the normalization factor to be used in the
+# gratia query.
+#
+# Format:
+#  token 1 - The Site.SiteName
+#  token 2 - The normalization value to be used. This was obtained
+#            from site surveys regarding the hardware used on a
+#            site's clusters and is an estimated value based
+#            on a HEPSpec2006 specification.  
+#  This tokens are whitespace seperated.  
+#  Comments - line starting with a # sign
+#  Empty lines are permittted.
+# -----------------------------------------------------------------
+# History:
+##################################################################
+#
+#-- Site  ------- HEPSpec2006
+#
+#--- CMS Tier 1 ----    
+#USCMS-FNAL-WC1      2566  
+#--- CMS Tier 2 ----    
+#CIT_CMS_T2          3236       
+#GLOW                2408
+#MIT_CMS             1872
+#Nebraska            2603
+#Purdue-RCAC         3031
+#Purdue-Steele       3196
+#Purdue-Rossmann     2810
+#Purdue-Hansen       2170
+#UCSDT2              3310
+#SPRACE              3370
+#GridUNESP_CENTRAL   3672
+#UFlorida-HPC        2415
+#UFlorida-PG         1535
+#
+#
+####################################
+####################################
+#--- ATLAS Tier 1 ----
+#BNL-ATLAS           3093 
+#--- ATLAS Tier 2 ----
+#AGLT2               2125
+#HU_ATLAS_Tier2      2218
+#BU_ATLAS_Tier2      2095
+#MWT2                2178
+#OU_OCHEP_SWT2       2255
+#WT2                 2823
+#SWT2_CPB            2107
+#UTA_SWT2            2810
+#
+#
+####################################
+####################################
+#--- ALICE Tier 2 ----
+#NERSC-PDSF          3480
+#LC-glcc             3920
+#
+#
+###############################
+###############################
+##--- CMS Tier 1 -----
+USCMS-FNAL-WC1     10264
+##--- CMS Tier 2 -----
+CIT_CMS_T2         12944
+GLOW                9632
+MIT_CMS             7488
+Nebraska           10412
+Purdue-RCAC        12124
+Purdue-Steele      12784
+Purdue-Rossmann    11240
+Purdue-Hansen       8680
+UCSDT2             13240
+SPRACE             13480
+GridUNESP_CENTRAL  14688
+UFlorida-HPC        9660
+UFlorida-PG         6140
+# 
+###############################
+###############################
+#--- ATLAS Tier 2 -----
+BNL-ATLAS          12372
+#--- ATLAS Tier 2 -----          
+AGLT2               8500
+HU_ATLAS_Tier2      8872
+BU_ATLAS_Tier2      8380
+MWT2                8712
+OU_OCHEP_SWT2       9020
+WT2                11292
+SWT2_CPB            8428
+UTA_SWT2           11240
+# 
+####################################
+####################################
+#--- ALICE Tier 2 ----
+NERSC-PDSF         13920
+LC-glcc            15680
+#

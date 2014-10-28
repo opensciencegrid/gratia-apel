@@ -1,0 +1,169 @@
+##################################################################
+# This file identifies the set of sets reportable to the APEL-LCG
+# database and the normalization factor to be used in the
+# gratia query.
+#
+# Format:
+#  token 1 - The Site.SiteName
+#  token 2 - The normalization value to be used. This was obtained
+#            from site surveys regarding the hardware used on a
+#            site's clusters and is an estimated value based
+#            on a HEPSpec2006 specification.  
+#  This tokens are whitespace seperated.  
+#  Comments - line starting with a # sign
+#  Empty lines are permittted.
+# -----------------------------------------------------------------
+# History:
+#
+# 6/28/12 (John Weigand)
+#         Added UFlorida_SSERCA with NF 7250 provided by Yu. 
+#
+# 8/09/12 (John Weigand)
+#         Removed UFlorida-PG (replaced by UFlorida-SSERCA)
+#
+# 8/21/12 (John Weigand)
+#         Added Purdue-Carter  per goc ticket 12500 NF 16.4
+#
+# 10/10/12 (John Weigand)
+#         Changed UFlorida-HPC NF from 9660 to 10940 (per Bockjoo)
+#
+# 10/24/12 (John Weigand)
+#         Changed UFlorida-HPC NF from 7488 to 10800 (per Max)
+#
+# 10/09/12 (John Weigand)
+#         Changed NERSC-PDSF from 13920 to 15494 (per Jeff) Ticket 13117
+#
+# 03/07/13 (John Weigand)
+#         Removing Purdue-Steele from interface. 
+#         It is being de-commissioned per ScottT.
+#
+# 5/1/13 (John Weigand)
+#         ATLAS NF changes per Bob Ball using v27
+#                               old    new       delta
+#           BNL-ATLAS          12372   9660      -2712 
+#           AGLT2               8500   8680       +180
+#           HU_ATLAS_Tier2      8872   8920       + 48
+#           BU_ATLAS_Tier2      8380   8430       + 50
+#           MWT2                8712   8320       -392
+#           OU_OCHEP_SWT2       9020   9020      no change
+#           WT2                11292  10710       -582
+#           SWT2_CPB            8428   8200       -228
+#           UTA_SWT2           11240   9200      -2040
+#
+# 6/12/13 (John Weigand)
+#        ATLAS NF changes per Rob Gardner using v28
+#                               old    new       delta
+#          AGLT2               8680   8720        +40
+#          MWT2                8320   8500       +180
+#          WT2                10710  10790        +80
+#
+# 8/2/13 (John Weigand)
+#         ATLAS NF changes per Bob Ball using v29+ (effective for July)
+#                               old    new   
+#            AGLT2               8720  9030
+#            BNL_ATLAS           9660 10050
+#
+# 11/11/13 (John Weigand)
+#         Added OU_OSCER_ATLAS with NF of 14.22 per Horst
+#            Also added this for October 2013
+#         Added LUCILLE        with NF of 14.22 per Horst
+#            For November only
+#
+# 11/18/13 (John Weigand)
+#         Removed UFlorida-SSERCA per goc ticket 17466
+#
+# 11/30/13 (John Weigand)
+#         Added Purdue-Conte with NF 10.25 (per Magid and
+#          goc ticket 17987 This is effective for Dec forward)
+#            
+# 12/11/13 (John Weigand)
+#         Change NF for NERSC-PDSF from 15494 to 16614
+#          goc ticket 18338  per Jeff Porter
+#
+# 12/20/13 (John Weigand)
+#         Changed the following Nfs per Bob Ball email
+#                                New    Old
+#            LUCILLE             9100 14220
+#            MWT2                8870  8500
+#            OU_OCHEP_SWT2       8820  9020
+#            SWT2_CPB            8560  8200
+#            UTA_SWT2            9670  9200
+#            
+# 01/21/14 (John Weigand)
+#         Added UERJ with an NF of 1.  Waiting on a number from them.
+#
+# 02/04/14 (John Weigand)
+#         Changed UERJ NF from 1 to 10486 (per Eduardo Revoredo)
+#
+# 02/10/14 (John Weigand)
+#         Changed NFs per Bob Ball (goc ticket 19521)
+#            AGLT2          from 9.03  to 10.29
+#            BU_ATLAS_Tier2 from 8.43  to  9.32
+#            HU_ATLAS_Tier2 from 8.92  to  9.44
+#            MWT2           from 8.87  to  9.26
+#            WT2            from 10.79 to 11.06 
+#
+# 04/30/14 (John Weigand)
+#     Added resource group Purdue-Hadoop.
+#     It is replacing Purdue-RCAC mid month so both need to remain for April.
+#     Giving it the same NF factor as Purdue-RCAC until they supply a new one.
+#
+# 05/02/14 (John Weigand)
+#     Changed Purdue-Hadoop NF from 12124 to 12370  goc ticket 20873
+#
+# 05/05/14 (John Weigand)
+#     Removed Purdue-RCAC was replaced by Purdue-Hadoop mid-April
+#
+# 05/30/14 (John Weigand)
+#     Changed NFs per Bob Ball (goc ticket 21285)
+#        AGLT2          from 10.29 to 9.26
+#
+##################################################################
+#
+#-- Site  ------- HEPSpec2006
+#
+###############################
+###############################
+##--- CMS Tier 1 -----
+USCMS-FNAL-WC1     10264
+##--- CMS Tier 2 -----
+CIT_CMS_T2         12944
+GLOW                9632
+MIT_CMS            10800
+Nebraska           10412
+Purdue-Hadoop      12370
+Purdue-Rossmann    11240
+Purdue-Hansen       8680
+Purdue-Carter      16400
+Purdue-Conte       10250 
+UCSDT2             13240
+SPRACE             13480
+GridUNESP_CENTRAL  14688
+UFlorida-HPC       10940
+UERJ               10486
+# 
+###############################
+###############################
+#--- ATLAS Tier 2 -----
+BNL-ATLAS           10050
+#--- ATLAS Tier 2 -----  
+AGLT2               9260
+BU_ATLAS_Tier2      9320
+HU_ATLAS_Tier2      9440
+LUCILLE             9100
+MWT2                9260
+OU_OCHEP_SWT2       8820
+OU_OSCER_ATLAS     14220
+WT2                11060
+SWT2_CPB            8560
+UTA_SWT2            9670
+# 
+####################################
+####################################
+#--- ALICE Tier 2 ----
+NERSC-PDSF         16614
+LC-glcc            15680
+#################################
+#Purdue-Steele      12784
+#UFlorida-SSERCA     7250
+#Purdue-RCAC        12124

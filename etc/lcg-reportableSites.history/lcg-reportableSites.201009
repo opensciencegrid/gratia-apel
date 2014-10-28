@@ -1,0 +1,361 @@
+##################################################################
+# This file identifies the set of sets reportable to the APEL-LCG
+# database and the normalization factor to be used in the
+# gratia query.
+#
+# Format:
+#  token 1 - The Site.SiteName
+#  token 2 - The normalization value to be used. This was obtained
+#            from site surveys regarding the hardware used on a
+#            site's clusters and is an estimated value based
+#            on a SPECint2000 specification.  If no value is 
+#            specified, then a value is derived from the
+#            gratia database using the gratia_psacct.ProbeName
+#            specified in lcg.conf file.
+#  This tokens are whitespace seperated.  
+#  Comments - line starting with a # sign
+#  Empty lines are permittted.
+# -----------------------------------------------------------------
+# History:
+#   8/16/07 (John Weigand) 
+#             Changes sites:
+#               UTA-DPCC to UTA_DPCC. 1st reported: 12.1.2006
+#             New sites:
+#               AGLT2             1st reported:   4.6.2007
+#               BU_ATLAS_Tier2    1st reported:  never  
+#               BU_ATLAS_Tier2o   1st reported:  never
+#               IU_ATLAS_Tier2    1st reported:   6.5.2007
+#               MWT2_IU           1st reported:  10.9.2006
+#               MWT2_UC           1st reported:  9.27.2006
+#               SLACXRD           1st reported:  never
+#               OU_OCHEP_SWT2     1st reported:  3.15.2007
+#               OU_OSCER_ATLAS    1st reported:  8.15.2006
+#               UC_Teraport       1st reported:  never
+#               UC_ATLAS_MWT2     1st reported:   9.1.2006
+#               UTA_SWT2          1st reported:   7.6.2006
+#   8/07/07 (John Weigand) 
+#             Removed UCSanDiegoPG.
+#             Added HEPGRID_UERJ,UCSDT2,UCSDT2-B.
+#             These are the same WN clusters as the UCSanDiegoPG
+#             for which there was no nomralization factor. So they
+#             will take the default one.
+#             This change was made at the request of Burt Holzman
+#             and satifies the GOC ticket #1714.
+#   6/19/07 (John Weigand) - 
+#             The BNL_ATLAS_1 and BNL_ATLAS_2 sites were changed
+#             to be BNL_OSG.  This was done by changing the
+#             relation between the Site and Probe table on siteid.
+#             The old site names are still reflected in the reporting
+#             and all 3 assigned the same normalization factor as
+#             they all feed the same WN cluster. 
+#   9/12/07 (John Weigand) - 
+#             Added SLAC_PROD.
+#   9/20/07 (John Weigand) - 
+#             Replaced SLAC_PROD with PROD_SLAC. 
+#             There has been confusion over which it is and may have been
+#             done incorrectly on 9/12/2007.
+#   9/27/07 (John Weigand) - 
+#             Updated Normalization factor for AGLT2 (2100)
+#             Updated Normalization factor for PROD_SLAC (1757)
+#   10/02/07 (John Weigand) - 
+#             Updated Normalization factor for BNL_ATLAS_Tier2  (1294)
+#             Updated Normalization factor for BNL_ATLAS_Tier2o (1645)
+#             Also adjusted  BNL_ATLAS_1, BNL_ATLAS_2, BNL_OSG  (1351)
+#              - appeared to be an error in the calulation
+#             Updated Normalization factor for UTA_SWT2         (1543)
+#             Updated Normalization factor for OU_OSCER_ATLAS   (1543)
+#             Updated Normalization factor for OU_OCHEP_SWT2    (1543)
+#             Updated Normalization factor for SLACXRD          (1757)
+#             Updated Normalization factor for UC_Teraport      (1412)
+#             Updated Normalization factor for MWT2_IU          (1787)
+#             Updated Normalization factor for MWT2_UC          (1787)
+#             Updated Normalization factor for UC_ATLAS_MWT2    (1169)
+#             Updated Normalization factor for IU_ATLAS_TIER2    (921)
+#             Added new atlas site IU_OSG with Normalization factor (2099)
+#             Corrected Normalization factor for BNL_ATLAS_Tier2  (1123)
+#             Corrected Normalization factor for BNL_ATLAS_Tier2o (1624)
+#             Corrected Normalization factor for IU_OSG (1678)
+#   10/03/07 (John Weigand) - 
+#             Removed SLACXRD. Name known only to Panda.
+#             Updated Normalization factor for BNL_PANDA        (1351)
+#   10/12/07 (John Weigand) - 
+#             Updated Normalization factor for UTA_DPCC         (915)
+#   11/08/07 (John Weigand) - 
+#             Replaced BNL_PANDA,BNL_OSG,BNL_LOCAL with US-T1-BNL
+#   11/09/07 (John Weigand) - 
+#             Updated Normalization factor for PROD_SLAC       (1726)
+#   12/20/07 (John Weigand) - 
+#             Replaced US-T1-BNL with BNL_ATLAS_1.  This undoes the 11/8/07
+#             change.  The intent is to allow BNL_ATLAS_1 to appear in the
+#             EGEE OSG view.  Then, in an EGEE Tier1 view translation table,
+#             BNL_ATLAS_1 will translate to US-T1-BNL. In the short term,
+#             both entries will be reflected until changes are made in
+#             the EGEE site association table for the Tier 1 view.
+#             When the changes to the Gratia Site table and EGEE tables
+#             are complete the US-T1-BNL can be removed.
+#   1/17/08 (John Weigand) -
+#             US-T1-BNL to BNL_ATLAS_1 changes effected. 
+#             Removing US-T1-BNL entry.
+#   1/20/08 (John Weigand) - 
+#             Updated Normalization factor for PROD_SLAC       (1779)
+#   2/14/08 (John Weigand) - 
+#             Updated Normalization factor for AGLT2 from 2100 to 2168
+#             effective 1/1/2008.  Update for January effected 2/15.
+#   3/18/08 (John Weigand) - 
+#             Added SWT2_CPB (1645) per Pat McGuigan request
+#   3/19/08 (John Weigand) 
+#             Removed UCSDT2-B, BU_ATLAS_Tier2o, IU_ATLAS_Tier2, UTA_DPCC
+#             in order for mail showing sites with no data is accurate.
+#             These were deprecated some time ago.
+#   3/21/08 (John Weigand)
+#             Changed BU_ATLAS_Tier2 normalization (1533) per Saul Youssef
+#             Combined BU_ATLAS_Tier2 and BU_ATLAS_Tier1o clusters
+#   4/14/08 (John Weigand)
+#             Adding UFlorida-HPC & UFlorida-IHEPA per Backjoo Kim 
+#             Also changed the following factors using Brian Bocklemans system
+#             that derives the processor model from GIP.
+#              Site                New     Old
+#              --------            ----    -----
+#              BNL_ATLAS_1         1393    1351
+#              CIT_CMS_T2          2393    default (1.04)
+#              GLOW                1686    default (1.04)
+#              HEPGRID_UERJ        2117    default (1.04) (Not a Tier2 at EGEE)
+#              MIT_CMS             1364    790                       
+#              Nebraska            1571    1578                  
+#              OU_OCHEP_SWT2       2389    1543                       
+#              PROD_SLAC           1789    1779                       
+#              Purdue-Lear         1285    default (1.04)
+#              Purdue-RCAC         1543    default (1.04)
+#              SPRACE              2117    1676           (Not a Tier2 at EGEE)
+#              UCSDT2              2023    default (1.04)
+#              UC_ATLAS_MWT2       1285    1169                       
+#              UC_Teraport         1250    1412           (Not a Tier2 at EGEE)
+#              UFlorida-HPC        1521    was not reporting
+#              UFlorida-IHEPA      1521    was not reporting
+#              USCMS-FNAL-WC1-CE   1809    default (1.04)
+#   4/29/08 (John Weigand)
+#              Changed the following to use the GIP reported configuration and the 
+#              normalization factors from http://t2.unl.edu/gratia/site_normalization
+#                                     old   new
+#                                     ----  ----
+#                 AGLT2               2168  2167
+#                 BU_ATLAS_Tier2      1533  1487
+#                 IU_OSG              1678  2101
+#                 MWT2_UC             1787  1521
+#                 MWT2_IU             1787  not being reported
+#                 SWT2_CPB            1645  1628
+#                 UFlorida-PG         1602  1535
+#   4/29/08 (John Weigand)
+#               Dropped the following as they are not in the org_Tier2 table.
+#                 HEPGRID_UERJ        2117
+#                 SPRACE              2117
+#                 UC_Teraport         1250
+#                 OU_OSCER_ATLAS      1543
+#   5/21/08 (John Weigand)
+#           Updates based on https://t2.unl.edu/gratia/wlcg_reporting#sitenorm
+#           GIP data.
+#                 AGLT2              2698
+#                 GLOW               2108
+#                 PROD_SLAC          2412
+#           Added Purdue_Steele with Purdue_Lear factor to see if Brians
+#           site picks it up tomorrow.
+#   5/28/08 (John Weigand)
+#           Updates based on https://t2.unl.edu/gratia/wlcg_reporting#sitenorm
+#           GIP data.
+#             BU_ATLAS_Tier2      2022   previously 1487 
+#             Purdue-RCAC         1756   previously 1543
+#             Purdue-Steele       1756   previously 1285
+#   6/12/08 (John Weigand)
+#           Updates based on https://t2.unl.edu/gratia/wlcg_reporting#sitenorm
+#           GIP data.
+#             MWT2_UC             1935   previously 1521
+#             Purdue-RCAC         2338   previously 1756
+#             Purdue-Steele       2529   previously 1756
+#   7/14/08 (Karthik Arunachalam)
+#           Updates based on https://t2.unl.edu/gratia/wlcg_reporting#sitenorm
+#           GIP data.
+#            CIT_CMS_T2           2354   previously 2393
+#            UCSDT2               2497   previously 2023
+#            BNL_ATLAS_1          1593   previously 1393
+#	     Purdue-Lear          1285   Removed (Taken out of service)
+#   7/24/08 (Karthik Arunachalam)
+#           Updates based on https://t2.unl.edu/gratia/wlcg_reporting#sitenorm
+#           GIP data.
+#           Update because site name PROD_SLAC changed to WT2 (Equivalent of dropping PROD_SLAC and adding WT2)
+#	     WT2 		   2412  previously PROD_SLAC	2412 
+#   8/26/08 (Karthik Arunachalam)
+#           Updates based on comparison of NFgip to NFapel at http://www.nhn.ou.edu/~karunach/nf.html
+# 	    Update logic: If NFgip > NFapel then NFapel=NFgip. 
+# 	    	   	  Else If NFgip < NFapel then Contact site admin to see why NFgip dropped	 
+#		   	  Else Do nothing.
+#       --------------------------------------
+#	Site		NFgip	NFapel	%diff
+#       --------------------------------------
+#	CIT_CMS_T2	2398	2354	1
+#	GLOW		2166	2108	2
+#	MIT_CMS		1872	1364	37
+#	Purdue-RCAC	2883	2338	23
+#	Purdue-Steele	3196	2529	26
+#	UCSDT2		2871	2497	14
+#	BNL_ATLAS_1	1944	1593	22
+#	MWT2_IU		1836	1787	2
+#	MWT2_UC		1878	1935	-2
+#	WT2		2171	2412	-9
+#	SWT2_CPB	1877	1628	15
+#       --------------------------------------
+#   12/1/08
+#	Updates based on http://t2.unl.edu/gratia/site_normalization
+#            Nebraska 2027   previously 1571
+#
+#   02/17/09
+#	Updates based on http://t2.unl.edu/gratia/site_normalization
+#            Nebraska 		1832   previously 2166 (drop confirmed through GOC ticket # 6366
+#            BNL_ATLAS_1 	2302   previously 1944
+#            AGLT2	 	3130   previously 2698
+#
+#   02/24/2009
+#	Removing UFlorida-IHEPA (This site has been de-commissioned according to Bockjoo Kim)
+#
+#   02/28/2009 (John Weigand)
+#       Added UFlorida-IHEPA back (This site was decommissioned on 2/14 and
+#       merged into UFlorida-PG. It still counts toward MOU. per Bockjoo Kim.)
+#
+#  03/13/2009 (John Weigand)
+#    1. Removed UFlorida-IHEPA again.  
+#       Decommissioned 2/14/09.  Load assumed by UFlorida-PG
+#       Due to the changes made in the LCG.py process to allow for date 
+#       sensitiviy of this file, it can be done at any time in the current month
+#    2. Removed UC_ATLAS_MWT2 - stopped being considered a T2 site in 
+#        2009/06 per Rob Gardner.  We never got word and just realized now.
+#   03/24/2009 (Karthik)   	 
+#    GLOW	2408	previously 1832  (jump due to fixing of incorrect lower value assigned after an upgrade)
+#       	 
+#  06/01/2009 (John Weigand)
+#    Re-added SPRACE (had been removed back mistakenly back in April 2008)
+#    at the request of CMS (Frank Wuerthwein).  They are in the org_Tier1
+#    table under country Brazil.
+#    Re-added HEPGRID_UERJ (had been removed back mistakenly back in April 2008)
+#    at the request of CMS (Ken Bloom). They are currently not in the org_Tier2
+#    table but are working toward an MOU agreement.  They will also be 
+#    under Brazil.
+#    
+#  06/18/2009    
+#  CIT_CMS_T2	3046 	previously 2398 (jump due to addition of 500 new cores)
+#
+#  01/04/2010 (Karthik Arunachalam)    
+#  AGLT2	3507 	previously 3130 
+#
+#  01/27/2010 (John Wegiand)    
+#    Added GridUNESP_CENTRAL as a part of the BR_SP_SPRACE fenderation.
+#    - they are part of SPRACE and have temporarily given them the same
+#      normalization factor.  This site may not have a steady load of
+#      cms/atlas jobs.
+#
+# 02/08/2010 (Karthik Arunachalam)
+# USCMS-FNAL-WC1-CE	1995	previously 1809 
+# MWT2_IU		2339	previously 1836
+# UTA_SWT2		2851	previously 1543
+#
+# 03/03/2010 (Karthik Arunachalam)
+# Updated NFapel to the NFgip values for the following sites
+# ------------------------------------------------
+# Site            	NFgip   NFapel   %diff
+# ------------------------------------------------
+# GridUNESP_CENTRAL    	3672    2117     73
+# UFlorida-HPC        	2415    1521     58
+# BU_ATLAS_Tier2        2897    2022     43
+# MWT2_UC            	2449    1935     26
+# ------------------------------------------------
+#
+# 07/09/2010 (Karthik Arunachalam)
+# Updated NFapel values to NFgip values for the following sites
+# ------------------------------------------------
+# Site            	NFgip   NFapel   %diff
+# ------------------------------------------------
+# USCMS-FNAL-WC1-CE	2566	1995	28 
+# Nebraska		2603	2027	28
+# Purdue-RCAC		3031	2883	5
+#
+# 09/08/2010 (John Weigand)
+#     Added NERSC-PDSF with a 1160 SI2K value per Brian Bockleman email
+#
+# 09/13/2010 (Karthik Arunachalam)
+# Updated NFapel values to NFgip values for the following sites
+#---------------------------------------------------
+# Site                    NFgip   NFapel  % diff
+# ---------------------------------------------------
+# SPRACE                  3370    2117    59
+# OU_OCHEP_SWT2           4020    2389    68
+# ---------------------------------------------------
+#
+# 09/16/2010 (John Weigand)
+#   Updated NF for BNL_ATLAS_1 - from 2302 new 3225
+# 
+# 09/22/2010 (Karthik Arunachalam)
+# Updated NFapel values to NFgip values for the following sites
+#---------------------------------------------------
+# Site                    NFgip   NFapel  % diff
+# ---------------------------------------------------
+# UCSDT2		  3310	  2871	  15
+# HEPGRID_UERJ		  3196	  2117	  50
+##################################################################
+#-- Site  ------- SPECint2000
+#
+#--- CMS Tier 1 ----    
+USCMS-FNAL-WC1-CE   2566  
+#--- CMS Tier 2 ----    
+CIT_CMS_T2          3046       
+GLOW                2408
+HEPGRID_UERJ        3196
+MIT_CMS             1872
+Nebraska            2603
+Purdue-RCAC         3031
+Purdue-Steele       3196
+UCSDT2              3310
+SPRACE              3370
+GridUNESP_CENTRAL   3672
+UFlorida-HPC        2415
+UFlorida-PG         1535
+#
+#
+####################################
+####################################
+#--- ATLAS Tier 1 ----
+BNL_ATLAS_1         3225
+#--- ATLAS Tier 2 ----
+AGLT2               3507
+BU_ATLAS_Tier2      2897
+IU_OSG              2101
+MWT2_IU             2339
+MWT2_UC             2449
+OU_OCHEP_SWT2       4020 
+WT2                 2412
+SWT2_CPB            1877
+UTA_SWT2            2851
+#
+#
+####################################
+####################################
+#--- ALICE Tier 2 ----
+NERSC-PDSF          1160
+#
+#
+####################################
+##-- obsolete --
+####################################
+#--- CMS Tier unknown ----    
+##UCSDT2-B
+##UTA_DPCC             915
+##Purdue-Lear    1285 (decommissioned 8/1/09 - load assumed by Purdue-Steele)
+##UFlorida-IHEPA 1521 (decommissioned 2/14/09, load assumed by UFlorida-PG)
+#--- ATLAS ----
+##US-T1-BNL           1351
+##BNL_PANDA           1351 
+##BNL_OSG             1351
+##BNL_ATLAS_2         1351
+##BU_ATLAS_Tier2o     1624
+##IU_ATLAS_Tier2       921
+#UC_Teraport         1250
+#OU_OSCER_ATLAS      1543
+##PROD_SLAC      2412 (replaced by WT2)
+##UC_ATLAS_MWT2  1285 (stopped being considered a T2 site in 2009/06 per Rob Gardner)

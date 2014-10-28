@@ -1,0 +1,5 @@
+set autocommit=0;
+DELETE FROM OSG_DATA WHERE Month = 02 AND Year = 2006 ;
+INSERT INTO OSG_DATA VALUES ('Nebraska', 'cms', '12319', '31082', '49048', '55319', '87294', '02', '2006', '2006-02-01', '2006-02-28', '1.578', '2007-09-11 12:32:05');
+INSERT INTO OSG_DATA VALUES ('Nebraska', 'usatlas', '2168', '25919', '40900', '34904', '55079', '02', '2006', '2006-02-08', '2006-02-28', '1.578', '2007-09-11 12:32:05');
+commit;
