@@ -4,7 +4,6 @@
 # Previous month's transfers are run for just the 1st n days of the month to
 # insure all sites have reported to Gratia.
 # The n days is dependent on when LCG accounting issues the monthly MOU reports
-#
 #-------------------------------------------------------------------------
 ## 15 10 1-5 * *  root HOMEDIR=/usr/local/gratia-apel; cd $HOMEDIR/bin; ./LCG.py --config=$HOMEDIR/etc/lcg.conf --date=previous --update
 #
@@ -18,4 +17,10 @@
 15 11 * * *  root HOMEDIR=/usr/local/gratia-apel; cd $HOMEDIR/bin; ./LCG.py --config=$HOMEDIR/etc/lcg.conf --date=current && $HOMEDIR/bin/create-apel-index.sh $HOMEDIR/etc/lcg.conf
 #
 #-------------------------------------------------------------------------
+#  Checks for updates on history and apel messages --
+#
+## 30 11 * * 5  weigand HOMEDIR=/usr/local/gratia-apel; cd $HOMEDIR/bin; ./update-src-repo.sh /usr/local/gratia-apel/etc/lcg.conf weigand@fnal.gov
+#
+#-------------------------------------------------------------------------
+
 
