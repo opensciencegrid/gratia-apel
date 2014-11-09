@@ -106,7 +106,7 @@ NumberOfJobs: 0
 Site: AGLT2
 Group: atlas
 EarliestEndTime: 1412139600
-LatestEndTime: 1414645200
+LatestEndTime: 1414731600
 Month: 10
 Year: 2014
 GlobalUserName: /OU=LocalUser/CN=atlasconnect
@@ -197,7 +197,7 @@ NumberOfJobs: 0
 Site: BNL-ATLAS
 Group: atlas
 EarliestEndTime: 1412139600
-LatestEndTime: 1414558800
+LatestEndTime: 1414731600
 Month: 10
 Year: 2014
 GlobalUserName: /DC=com/DC=DigiCert-Grid/O=Open Science Grid/OU=People/CN=Xin Zhao 87
@@ -2411,6 +2411,19 @@ LatestEndTime: 1412917200
 Month: 10
 Year: 2014
 GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ar273/CN=700727/CN=Anthony Kevin Rose
+WallDuration: 0
+CpuDuration: 0
+NormalisedWallDuration: 0
+NormalisedCpuDuration: 0
+NumberOfJobs: 0
+%%
+Site: USCMS-FNAL-WC1
+Group: cms
+EarliestEndTime: 1414731600
+LatestEndTime: 1414731600
+Month: 10
+Year: 2014
+GlobalUserName: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=castaned/CN=628194/CN=Alfredo Martin Castaneda Hernandez
 WallDuration: 0
 CpuDuration: 0
 NormalisedWallDuration: 0
